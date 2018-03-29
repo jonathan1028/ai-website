@@ -6,7 +6,7 @@
         <h1>Agilent - Customer Relationship Manager</h1>
         <h3>Built With: Vue.js, GraphQL, GraphCool, and a Static Site Generator</h3>
         <p>A modern CRM built with optimistic reponse (no page refreshes required), lightning fast searh and sort technology, and statically generated.</p>
-        <a href='crm.agilentinnovations.com'>Check it Out -></a>
+        <a href='http://crm.agilentinnovations.com'>Check it Out -></a>
       </div>
       <div class="box">
         <h1>Project 2</h1>
