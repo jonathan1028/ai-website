@@ -19,6 +19,10 @@ export default new Router({
       component: Projects
     },
     {
+      path: 'crm.agilentinnovations.com',
+      name: 'CRM'
+    },
+    {
       path: '/learn',
       name: 'Learn',
       component: Learn

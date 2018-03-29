@@ -1,9 +1,9 @@
 <template>
   <div class="header">
     <div class="header-content">
-        <div class="main-nav">
+        <!-- <div class="main-nav"> -->
           <!-- Logo -->
-          <div class="logo">Agilent Innovations</div>
+          <!-- <div class="logo">Agilent Innovations</div> -->
           <!-- Main navigation -->
           <div class="nav-buttons">
             <router-link to="/">Home</router-link>
@@ -12,7 +12,7 @@
             <div>|</div>
             <router-link to="/learn">Learn</router-link>
           </div>
-        </div>
+        <!-- </div> -->
     </div>
   </div>
 </template>
@@ -26,10 +26,12 @@ export default {
 <style>
 .header{
   position: fixed;
-  width: 100%;
-  height: 40px;
-  background-color: white;
   top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  /* opacity: 0.3;
+  filter: alpha(opacity=50); For IE8 and earlier */
   -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -52,8 +54,9 @@ export default {
 }
 .nav-buttons{
   display: flex;
-  justify-content:space-between;
+  justify-content:flex-end;
   align-items: center;
+  margin-left: 80%;
   color: #3273dc;
   cursor: pointer;
   text-decoration: none;

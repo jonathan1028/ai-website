@@ -5,6 +5,8 @@
         <router-view></router-view>
         <!-- Standard page layout code -->
       </div>
+      <div class="footer">
+      </div>
   </div>
 </template>
 
@@ -20,17 +22,30 @@ export default {
 
 <style>
 html {
-  background-color: whitesmoke;
+  background-color: white;
   font-family: 'Open Sans', sans-serif;
+  margin: 0 0 0 0;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 .main-content {
-  max-width: 90%;
-  margin: 4em auto;
+  /* max-width: 90%; */
+  /* margin: 4em auto; */
+  margin: 0 0 0 0;
+}
+.footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  height: 80px;
+  background-color: rgb(52,62,71);
 }
 .box {
   background-color: white;
-  margin-top: 1%;
-  padding: 1%;
+  margin: 0 0 0 0;
+  padding: 1% 10%;
   /* border: 1px solid #BFBFBF;
   background-color: white;
   box-shadow: 3px 3px 3px 3px #aaaaaa; */
