@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="gradient block1 grid-container">
+  <div class="container">
+    <div class="gradient panel1">
       <!-- <svg xmlns="http://www.w3.org/2000/svg" width="200px" height="200px" >
         <defs>
           <linearGradient id="lgrad" x1="0%" y1="14%" x2="100%" y2="86%" >
@@ -10,24 +10,31 @@
         </defs>
         <rect x="0" y="0" width="100%" height="100%" fill="url(#lgrad)"/>
       </svg> -->
-      <h1>Agilent Innovations</h1>
+      <h1>Agilent is</h1>
       <h2>Agile + Intelligent</h2>
     </div>
-    <div class="box block2 container">
+    <div class="panel2">
       <h1>Philosophy</h1>
-      <p>- Living on the bleeding edge of technology has many benefits: projects that have long lives and lots of time before they can become out of date, </p>
+      <p>To live at the very bleeding edge of technology where the status quo is obliterated and obtaining a product that's faster, more reliable, and maintains a higher lever of security is just part of the everyday. </p>
     </div>
-    <div class="box block2 gradient">
-      <h1>Focus</h1>
-      <h2>Basic Websites, Complex web applications, AI </h2>
+    <div class="panel3 gradient">
+      <h1>Our Focus</h1>
+      <ul>
+        <li>Basic Websites</li>
+        <li>Complex Web Applications</li>
+        <li>Artificial Intelligence</li>
+      </ul>
+      <!-- <h2>Basic Websites, Complex Web applications, Artificial Intelligence </h2> -->
     </div>
-    <div class="box block2">
+    <div class="panel4">
       <h1>Sandbox</h1>
-      <h2>Counter, timer, clock</h2>
+      <!-- <h2>Counter, timer, clock</h2> -->
+      Coming soon
     </div>
-    <div class="box block2">
+    <div class="panel5 gradient">
       <h1>Technologies</h1>
-      <h2>Pull examples from Netlify, Vue, GraphQL, Apollo, etc </h2>
+      <h2>Vue.js, GraphQL, Apollo, Static Site Generators </h2>
+      <!-- <h2>Pull examples from Netlify, Vue, GraphQL, Apollo, etc </h2> -->
     </div>
   </div>
 </template>
@@ -39,11 +46,51 @@ export default {
 </script>
 
 <style scoped>
+  .container {
+    display: grid;
+    grid-template-rows: auto auto auto 300px 300px;
+  }
+  .panel1, .panel2, .panel3, .panel4, .panel5 {
+    padding: 1% 10%;
+    border: 1px solid #BFBFBF;
+  }
+  .panel1 {
+    padding-top: 2.5%;
+    height: auto;
+  }
+  .panel1 > h1 {
+    font-size: 8em;
+    margin: 0;
+    padding: 0;
+  }
+  .panel1 > h2 {
+    font-size: 3em;
+    padding-left: 50%;
+  }
+  .panel2, .panel3, .panel4, .panel5 {
+    padding: 3% 10% 6% 10%;
+    font-size: 1.5em;
+  }
+  .panel2 {
+    color: rgb(100, 100, 100);
+  }
+  .panel3 {
+    text-align: right;
+  }
+  .panel4 {
+    text-align: center;
+    color: rgb(100, 100, 100);
+  }
+  li {
+    font-size: 1.2em;
+    list-style-type: none;
+  }
   .grid-container {
     display: grid;
     grid-template-columns: 5% auto auto auto 5%
   }
   .block1 {
+    grid-column:  2 / 3;
     /* margin-top: 100px; */
     padding-top: 100px;
     height: 300px;

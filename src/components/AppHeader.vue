@@ -40,12 +40,15 @@ export default {
 .header-content{
   display: grid;
   grid-template-columns: 5% auto auto auto 5%;
+  align-items: center;
   width: 100%;
   height: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .logo{
-  margin-right: 1em;
+  font-size: 2em;
+  color:rgb(48,62,240);
+  /* margin-right: 5em; */
 }
 .main-nav{
   display: flex;
@@ -62,6 +65,7 @@ export default {
 }
 .nav-buttons a{
   color: #3273dc;
+  font-size: 1.5em;
   text-decoration: none;
 }
 .nav-buttons a:visited{
@@ -69,7 +73,11 @@ export default {
   text-decoration: none;
 }
 .nav-buttons a:hover{
-  color: gray;
+  color: var(--theme-color2);
+  text-decoration: underline;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
   text-decoration: none;
 }
 </style>

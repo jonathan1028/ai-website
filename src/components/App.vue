@@ -31,18 +31,20 @@ body {
   padding: 0;
 }
 
-html, body, .app {
-  height: 100vh; /* Must be set on all 3 to exend pages to bottom of view port even if page height is not long enough */
+:root {
+  --theme-color1: rgba(45,48,245,1);
+  --theme-color2: rgba(35,150,153,1);
+  --link-color: rgb(48,62,240);
 }
+
 /* ---------------------------------  Application layout ------------------------ */
 .app {
+  height: 100vh; /* Extends page to bottom of view port even if page content is not long enough */
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 60px auto 80px;
+  grid: 60px auto 80px / 1fr;
 }
 .app-header {
-  grid-column-start:  1;
-  grid-column-end:  1;
+  grid-column:  1 / -1; /* -1 causes header to expand to the end of grid regardless of number of columns*/
   position: sticky; /* For fixed header */
   top: 0; /* For fixed header */
   border: 1px solid #BFBFBF;
@@ -50,11 +52,10 @@ html, body, .app {
 }
 .main-content {
   grid-column-start:  1;
-  grid-column-end:  1;
+  grid-column-end:  -1;
 }
 .footer {
-  grid-column-start:  1;
-  grid-column-end:  1;
+  grid-column:  1 / -1; /* -1 causes header to expand to the end of grid regardless of number of columns*/
   background-color: rgb(52,62,71);
 }
 /* ---------------------------------------- Application Styling ---------------------------- */
@@ -113,8 +114,8 @@ button{
 }
 button:hover{
   background-color: rgb(250, 250, 250);
-  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0) inset;
+  -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0) inset;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0) inset;
 }
 </style>

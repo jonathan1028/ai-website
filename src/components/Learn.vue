@@ -1,13 +1,14 @@
 <template>
-  <div>
-    <div class="main-box">
+  <div class="container gradient">
+    <div class="main-box gradient">
       <h1>Learn</h1>
-      <div class="box">
+      Coming soon
+      <!-- <div class="box">
         <h2>Why you wanted a static website</h2>
       </div>
       <div class="box">
         <h2>The difference between one language and another</h2>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -18,11 +19,13 @@ export default {
 }
 </script>
 <style scoped>
+  .container {
+    height: 100%;
+    color: white;
+  }
   .main-box {
     height: 100%;
     background-color: white;
-    margin-top: 60px;
-    margin-bottom: 80px;
     padding: 1% 10%;
     padding-bottom: 5%;
   }
@@ -36,5 +39,14 @@ export default {
     border: 1px solid #BFBFBF;
     background-color: white;
     box-shadow: 3px 3px 3px 3px #aaaaaa;
+  }
+  .gradient {
+    background: -moz-linear-gradient(325deg, rgba(45,48,245,1) 0%, rgba(35,150,153,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(45,48,245,1)), color-stop(100%, rgba(35,150,153,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(325deg, rgba(45,48,245,1) 0%, rgba(35,150,153,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(325deg, rgba(45,48,245,1) 0%, rgba(35,150,153,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(325deg, rgba(45,48,245,1) 0%, rgba(35,150,153,1) 100%); /* ie10+ */
+    background: linear-gradient(125deg, rgba(45,48,245,1) 0%, rgba(35,150,153,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2D30F5', endColorstr='#239699',GradientType=1 ); /* ie6-9 */
   }
 </style>
