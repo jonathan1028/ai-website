@@ -1,9 +1,9 @@
 <template>
-  <div id="app">
-      <app-header></app-header>
+  <div id="app" class="app">
+      <app-header class="app-header"></app-header>
       <div class="main-content">
+        <!-- Inject page content -->
         <router-view></router-view>
-        <!-- Standard page layout code -->
       </div>
       <div class="footer">
       </div>
@@ -30,22 +30,40 @@ body {
   margin: 0;
   padding: 0;
 }
+
+html, body, .app {
+  height: 100vh; /* Must be set on all 3 to exend pages to bottom of view port even if page height is not long enough */
+}
+/* ---------------------------------  Application layout ------------------------ */
+.app {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px auto 80px;
+}
+.app-header {
+  grid-column-start:  1;
+  grid-column-end:  1;
+  position: sticky; /* For fixed header */
+  top: 0; /* For fixed header */
+  border: 1px solid #BFBFBF;
+  background-color: white;
+}
 .main-content {
-  /* max-width: 90%; */
-  /* margin: 4em auto; */
-  margin: 0 0 0 0;
+  grid-column-start:  1;
+  grid-column-end:  1;
 }
 .footer {
-  width: 100%;
-  bottom: 0;
-  position: fixed;
-  height: 80px;
+  grid-column-start:  1;
+  grid-column-end:  1;
   background-color: rgb(52,62,71);
 }
+/* ---------------------------------------- Application Styling ---------------------------- */
 .box {
   background-color: white;
   margin: 0 0 0 0;
   padding: 1% 10%;
+  border: 1px solid #BFBFBF;
+  background-color: white;
   /* border: 1px solid #BFBFBF;
   background-color: white;
   box-shadow: 3px 3px 3px 3px #aaaaaa; */

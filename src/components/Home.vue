@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="box gradient block1">
+    <div class="gradient block1 grid-container">
       <!-- <svg xmlns="http://www.w3.org/2000/svg" width="200px" height="200px" >
         <defs>
           <linearGradient id="lgrad" x1="0%" y1="14%" x2="100%" y2="86%" >
@@ -13,7 +13,7 @@
       <h1>Agilent Innovations</h1>
       <h2>Agile + Intelligent</h2>
     </div>
-    <div class="box block2">
+    <div class="box block2 container">
       <h1>Philosophy</h1>
       <p>- Living on the bleeding edge of technology has many benefits: projects that have long lives and lots of time before they can become out of date, </p>
     </div>
@@ -39,6 +39,10 @@ export default {
 </script>
 
 <style scoped>
+  .grid-container {
+    display: grid;
+    grid-template-columns: 5% auto auto auto 5%
+  }
   .block1 {
     /* margin-top: 100px; */
     padding-top: 100px;
