@@ -18,8 +18,8 @@
       <p>To live at the very bleeding edge of technology where the status quo is obliterated and obtaining a product that's faster, more reliable, and maintains a higher lever of security is just part of the everyday. </p>
     </div>
     <div class="panel3 gradient">
-      <h1>Our Focus</h1>
-      <ul>
+      <h1 class="hidden" v-infocus="'slideInLeft'">Our Focus</h1>
+      <ul class="hidden" v-infocus="'slideInLeft'">
         <li>Basic Websites</li>
         <li>Complex Web Applications</li>
         <li>Artificial Intelligence</li>
@@ -32,8 +32,14 @@
       Coming soon
     </div>
     <div class="panel5 gradient">
-      <h1>Technologies</h1>
-      <h2>Vue.js, GraphQL, Apollo, Static Site Generators </h2>
+      <h1 class="hidden" v-infocus="'slideInRight'">Technologies</h1>
+      <ul class="hidden" v-infocus="'slideInRight'">
+        <li>Vue.js</li>
+        <li>GraphQL</li>
+        <li>Apollo</li>
+        <li>Static Site Generators</li>
+        <li>Worldwide Content Delivery Network</li>
+      </ul>
       <!-- <h2>Pull examples from Netlify, Vue, GraphQL, Apollo, etc </h2> -->
     </div>
   </div>
@@ -41,27 +47,83 @@
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  // This function adds a new v-directive
+  directives: {
+    infocus: {
+      isLiteral: true,
+      inserted: (el, binding, vnode) => {
+        let f = () => {
+          let rect = el.getBoundingClientRect()
+          let inView = (
+            rect.width > 0 &&
+            rect.height > 0 &&
+            rect.top >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+          )
+          if (inView) {
+            el.classList.add(binding.value)
+            window.removeEventListener('scroll', f)
+          }
+        }
+        window.addEventListener('scroll', f)
+        f()
+      }
+    }
+  }
 }
 </script>
 
 <style scoped>
+  @keyframes slideInRight {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  @keyframes slideInLeft {
+    from {
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  h1 {
+    padding-bottom: 2%;
+  }
+  li {
+    padding-left: 0;
+    margin: 0;
+    font-size: 1.2em;
+    list-style-type: none;
+  }
   .container {
     display: grid;
-    grid-template-rows: auto auto auto 300px 300px;
+    grid-template-rows: auto auto auto auto auto;
   }
   .panel1, .panel2, .panel3, .panel4, .panel5 {
+    height: auto;
     padding: 1% 10%;
     border: 1px solid #BFBFBF;
   }
   .panel1 {
     padding-top: 2.5%;
-    height: auto;
+    padding-bottom: 5%;
   }
   .panel1 > h1 {
     font-size: 8em;
     margin: 0;
     padding: 0;
+    animation-duration: 2s;
+    animation-name: slideInRight;
   }
   .panel1 > h2 {
     font-size: 3em;
@@ -81,25 +143,8 @@ export default {
     text-align: center;
     color: rgb(100, 100, 100);
   }
-  li {
-    font-size: 1.2em;
-    list-style-type: none;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: 5% auto auto auto 5%
-  }
-  .block1 {
-    grid-column:  2 / 3;
-    /* margin-top: 100px; */
-    padding-top: 100px;
-    height: 300px;
-    font-weight: 400;
-  }
-  .block2 {
-    /* margin-top: 100px; */
-    height: 300px;
-    font-weight: 100;
+  .panel5 {
+    text-align: left;
   }
   .gradient {
     color: white;
@@ -110,5 +155,26 @@ export default {
     background: -ms-linear-gradient(325deg, rgba(45,48,245,1) 0%, rgba(35,150,153,1) 100%); /* ie10+ */
     background: linear-gradient(125deg, rgba(45,48,245,1) 0%, rgba(35,150,153,1) 100%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2D30F5', endColorstr='#239699',GradientType=1 ); /* ie6-9 */
+  }
+  .hidden {
+    opacity: 0;
+  }
+  .slideInLeft {
+    opacity: 1;
+    animation-duration: 3s;
+    animation-name: slideInLeft;
+    /* transform: translate(0, 0); */
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  .slideInRight {
+    opacity: 1;
+    animation-duration: 2s;
+    animation-name: slideInRight;
+    /* transform: translate(0, 0); */
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
   }
 </style>

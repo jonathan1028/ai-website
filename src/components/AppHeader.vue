@@ -58,10 +58,11 @@ export default {
 .nav-buttons{
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content:space-around;
   color: #3273dc;
-  cursor: pointer;
+  /* cursor: pointer; */
   text-decoration: none;
+  padding: 0%, 10%, 5%, 10%;
 }
 .nav-buttons a{
   color: #3273dc;
@@ -74,7 +75,6 @@ export default {
 }
 .nav-buttons a:hover{
   color: var(--theme-color2);
-  text-decoration: underline;
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);

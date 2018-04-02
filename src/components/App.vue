@@ -21,6 +21,8 @@ export default {
 </script>
 
 <style>
+/* Removes default margin and padding for all html elements */
+* { margin: 0; padding: 0; }
 html {
   background-color: white;
   font-family: 'Open Sans', sans-serif;
@@ -106,7 +108,7 @@ input:hover{
   /* background-color: white;
   box-shadow: 3px 3px 3px 3px #aaaaaa; */
 }
-button{
+/* button{
   margin-bottom: 1%;
   -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -117,5 +119,5 @@ button:hover{
   -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0) inset;
   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0) inset;
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0) inset;
-}
+} */
 </style>

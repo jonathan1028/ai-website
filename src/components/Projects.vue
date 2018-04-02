@@ -2,12 +2,12 @@
   <div class="container gradient">
     <div class="main-box">
       <h1>Projects</h1>
-      <div class="project-box">
+      <div class="project-box flipInX">
         <h1>Customer Relationship Manager</h1>
         <p>A modern CRM built with optimistic reponse (no page refreshes), lightning fast searh and sort technology, and statically generated.</p>
         <h3>Built With: Vue.js, GraphQL, GraphCool, and a Static Site Generator</h3>
         <button>
-          <a href='http://crm.agilentinnovations.com'>Check it Out</a>
+          <a href='http://crm.agilentinnovations.com'>View Demo</a>
           </button>
       </div>
       <div class="project-box">
@@ -42,6 +42,46 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@keyframes flipInX {
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    transform: perspective(400px);
+  }
+}
+
+.flipInX {
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+}
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
 @keyframes fadeIn1 {
     0%   {background-color:rgba(255, 255, 255, 0.00)};
     25%  {background-color:rgba(255, 255, 255, 0.20)};
@@ -54,11 +94,15 @@ export default {
     50%  {color:rgba(255, 255, 255, 0.70)};
     100% {color:rgba(255, 255, 255, 0.90)};
 }
-.container {
-  background-color: var(--theme-color2);
-  padding: 0% 0%;
-  margin: 0;
-  /* padding-bottom: 5%; */
+.project-box > h1, h2, h3, p, ul {
+  padding-bottom: 2%;
+}
+ul {
+  padding-left: 5%;
+}
+button {
+  padding: 1%;
+  margin-bottom: 2%;
 }
 .main-box {
   padding: 1% 0%;
@@ -68,33 +112,44 @@ export default {
 }
 .main-box > h1 {
   padding-left: 10%;
+  padding-bottom: 2%;
   font-size: 2.5em;
   color:  rgba(255, 255, 255, 0.90);
-  animation-name: fadeIn2;
+  animation-name: fadeInX;
   animation-duration: 2s;
 }
 a {
   font-size: 1.5em;
-  color:   rgba(35,150,153,.5);
+  color:   rgba(35,150,153,1);
   text-decoration: none;
 }
 button {
   margin-top: 2%;
   background-color: white;
-  border: 2px solid  rgba(35,150,153,.7);
+  border: 2px solid  rgba(35,150,153,1);
+  border-radius: 10px;
 }
 button:hover{
-  -webkit-transform: scale(1.05);
+  background-color: rgba(35,150,153,1);
+  color: white;
+  /* -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
-  transform: scale(1.05);
+  transform: scale(1.05); */
+}
+button:hover > a{
+  background-color: rgba(35,150,153,1);
+  color: white;
+  /* -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05); */
 }
 .project-box {
   opacity: 1;
   background-color:  rgba(255, 255, 255, 1);
   margin: 0 10% 1% 10%;
   padding: 1% 5%;
-  border: 1px solid #BFBFBF;
-  animation-name: fadeIn1;
+  /* border: 1px solid #BFBFBF; */
+  animation-name: slideInLeft;
   animation-duration: 2s;
   /* -webkit-box-shadow: 0 1px 2px #777;
   -moz-box-shadow: 0 2px 1px #777;
@@ -102,6 +157,9 @@ button:hover{
   /* border: 1px solid #BFBFBF;
   background-color: white;
   box-shadow: 3px 3px 3px 3px #aaaaaa; */
+ -moz-box-shadow: 5px 5px rgba(0,0,0,0.5);
+-webkit-box-shadow: 5px 5px rgba(0,0,0,0.5);
+box-shadow: 5px 5px rgba(0,0,0,0.5);
 }
 .project-box:hover{
   /* -webkit-transform: scale(1.01);
@@ -119,5 +177,37 @@ button:hover{
   background: -ms-linear-gradient(325deg, rgba(45,48,245,1) 0%, rgba(35,150,153,1) 100%); /* ie10+ */
   background: linear-gradient(125deg, rgba(45,48,245,1) 0%, rgba(35,150,153,1) 100%); /* w3c */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2D30F5', endColorstr='#239699',GradientType=1 ); /* ie6-9 */
+}
+.effect8
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect8:before, .effect8:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect8:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
 }
 </style>
