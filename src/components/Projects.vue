@@ -11,25 +11,63 @@
           </button>
       </div>
       <div class="project-box">
-        <h1>Admin Panel</h1>
+        <h1>DGnet Watchdog</h1>
+        <p>A enterprise web application used by customers such as GE for asset monitoring. Hired originally to build data visualizations for their front-end displays.
+          Was then hired to rebuild their entire front-end system in the Vue framework, and then hired to create a mobile friendly web version of the application.</p>
+        <h3>Built With: Vue.js, Vuex, Firebase, D3.js, CSS Grid, Media Queries</h3>
         <h3>Link coming soon</h3>
       </div>
       <div class="project-box">
-        <h1>787 Developers - Website</h1>
+        <h1>Value Request</h1>
+        <p>Assisted with the front-end development of a commercial appraisal application that allows users to
+          upload CSV files, modify the CSV files in browser, conduct regression analysis with the results being
+          charted in the application, and then pull user selected regressions into an adjustment grid.
+          The adjustment grid then allows a user to pull in a number of sales comparables and to make
+          real-time adjustments in various factors that the value of their subject propery. Upon completion of
+          their anaylsis of all these criteria, the application export a CSV report for them to be able to send to their clients.</p>
+        <h3>Built With: Vue.js, Vuex, Chart.js</h3>
+        <h3>Link coming soon</h3>
+      </div>
+      <div class="project-box">
+        <h1>Penny Pincher</h1>
+        <p>A Mint-like personal budgeting web application.
+        </p>
+        <h3>Built With: Vue.js, Vuex, Auth0, GraphQL, GraphCool, and a Static Site Generator</h3>
+        <h3>Link coming soon</h3>
+      </div>
+      <div class="project-box">
+        <h1>Admin Panel</h1>
+        <p>A custom built admin panel to allow for the management of users and Saas type applications.
+        </p>
+        <h3>Built With: Vue.js, GraphQL, GraphCool, and a Static Site Generator</h3>
+        <h3>Link coming soon</h3>
+      </div>
+      <div class="project-box">
+        <h1>Construction Central</h1>
+        <p>A construction management web application for a custom home builder that was used internally to manage all of their day-to-day operations.
+          The application started as a simple vendor management application and grew to include the following modules:
+          customer relationship management, estimating, budgeting, project management, job costing, and bookkeeping.
+        </p>
+        <h3>Built With: Meteor.js, MongoDB</h3>
         <h3>Link coming soon</h3>
       </div>
       <div class="project-box">
         <h1>Cloud Cutlist</h1>
+        <p>An ERP type web application that was used by a small manufacturing company to allow for a stream-lined ordering and manufacturing process.
+          The application included the following modules:
+          customer relationship manager, order management, process management, parametric product template modeling, and a Cut-List & Bill of Materials generation.
+        </p>
+        <h3>Built With: Meteor.js, MongoDB</h3>
         <h3>Link coming soon</h3>
       </div>
-      <div class="project-box">
+      <!-- <div class="project-box">
         <h1>Upcoming Projects</h1>
         <ul>
           <li>Website Asset Scraper</li>
           <li>Movie Display Panel</li>
           <li>Google Map Integration</li>
         </ul>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
