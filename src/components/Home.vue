@@ -20,9 +20,11 @@
     <div class="panel3 gradient">
       <h1 class="hidden" v-infocus="'slideInLeft'">Our Focus</h1>
       <ul class="hidden" v-infocus="'slideInLeft'">
-        <li>Basic Websites</li>
+        <!-- <li>Basic Websites</li> -->
         <li>Complex Web Applications</li>
-        <li>Artificial Intelligence</li>
+        <li>MVPs</li>
+        <li>Data Visualizations</li>
+        <!-- <li>Artificial Intelligence</li> -->
       </ul>
       <!-- <h2>Basic Websites, Complex Web applications, Artificial Intelligence </h2> -->
     </div>
@@ -32,11 +34,12 @@
       Coming soon
     </div>
     <div class="panel5 gradient">
-      <h1 class="hidden" v-infocus="'slideInRight'">Technologies</h1>
+      <h1 class="hidden" v-infocus="'slideInRight'">Core Technologies</h1>
       <ul class="hidden" v-infocus="'slideInRight'">
         <li>Vue.js</li>
         <li>GraphQL</li>
         <li>Apollo</li>
+        <li>Prisma/GraphCool</li>
         <li>Static Site Generators</li>
         <li>Worldwide Content Delivery Network</li>
       </ul>
