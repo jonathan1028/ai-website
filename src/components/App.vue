@@ -54,6 +54,9 @@ h3 {
 h4 {
   font-size: 1.8vh;
 }
+p {
+  font-size: 2.5vh;
+}
 a {
   font-size: 2vh;
   text-decoration: none;
@@ -63,7 +66,7 @@ a {
 .app {
   height: 100vh; /* Extends page to bottom of view port even if page content is not long enough */
   display: grid;
-  grid: 8vh auto 80px / 1fr;
+  grid: 8vh auto 10vh / 1fr;
 }
 .app-header {
   grid-column:  1 / -1; /* -1 causes header to expand to the end of grid regardless of number of columns*/

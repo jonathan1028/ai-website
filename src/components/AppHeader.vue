@@ -8,9 +8,9 @@
         <div></div>
         <div class="nav-buttons">
           <router-link to="/">Home</router-link>
-          <div>|</div>
+          <div class="sizing">|</div>
           <router-link to="/projects">Projects</router-link>
-          <div>|</div>
+          <div class="sizing">|</div>
           <router-link to="/learn">Learn</router-link>
         </div>
         <div></div>
@@ -40,14 +40,14 @@ export default {
 } */
 .header-content{
   display: grid;
-  grid-template-columns: 5% auto auto auto 5%;
+  grid-template-columns: 5vh auto auto auto 5vh;
   align-items: center;
   width: 100%;
   height: 100%;
   /* margin: 0 auto; */
 }
 .logo{
-  font-size: 2em;
+  font-size: .5vh;
   color:rgb(48,62,240);
   /* margin-right: 5em; */
 }
@@ -63,11 +63,11 @@ export default {
   color: #3273dc;
   /* cursor: pointer; */
   text-decoration: none;
-  padding: 0%, 10%, 5%, 10%;
+  padding: 0vh, 2.5vw, 1vh, 2.5vw;
 }
 .nav-buttons a{
   color: #3273dc;
-  font-size: 1.5em;
+  font-size: 3vh;
   text-decoration: none;
 }
 .nav-buttons a:visited{
@@ -80,5 +80,8 @@ export default {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   text-decoration: none;
+}
+.sizing {
+  font-size: 3vh;
 }
 </style>

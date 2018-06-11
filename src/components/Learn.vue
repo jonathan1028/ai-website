@@ -1,8 +1,8 @@
 <template>
   <div class="container gradient">
-    <div class="main-box gradient">
+    <div class="main-box">
       <h1>Learn</h1>
-      Coming soon
+      <p>Coming soon</p>
       <!-- <div class="box">
         <h2>Why you wanted a static website</h2>
       </div>
@@ -20,12 +20,12 @@ export default {
 </script>
 <style scoped>
   .container {
-    height: 100%;
+    height: 82vh;
     color: white;
   }
   .main-box {
-    height: 100%;
-    background-color: white;
+    /* height: 100%; */
+    background-color: transparent;
     padding: 1% 10%;
     padding-bottom: 5%;
   }

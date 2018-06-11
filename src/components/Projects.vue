@@ -3,8 +3,11 @@
     <div class="main-box">
       <h1 class="header">Projects</h1>
       <div class="project-box flipInX">
-        <h2>Customer Relationship Manager</h2>
-        <p>A modern CRM built with optimistic reponse (no page refreshes), lightning fast searh and sort technology, and statically generated.</p>
+        <h2>Agilent - Customer Relationship Manager</h2>
+        <!-- <div class="content"> -->
+          <img src="../assets/CRM.png">
+          <p>A modern Customer Relationship Manager project in progress that is built as a Single Page Application (no page refreshes) with lightning fast searh and sort technology and statically generated.</p>
+        <!-- </div> -->
         <h3>Built With: Vue.js, GraphQL, GraphCool, and a Static Site Generator</h3>
         <button>
           <a href='http://crm.agilentinnovations.com'>View Demo</a>
@@ -12,50 +15,56 @@
       </div>
       <div class="project-box flipInX">
         <h2>DGnet Watchdog</h2>
-        <p>A enterprise web application used by customers such as GE for asset monitoring. Hired originally to build data visualizations for their front-end displays.
-          Was then hired to rebuild their entire front-end system in the Vue framework, and then hired to create a mobile friendly web version of the application.</p>
+        <!-- <div class="content"> -->
+          <img src="../assets/DGN.png">
+          <p>An enterprise web application used by customers such as GE for asset monitoring. Hired originally to build data visualizations for their front-end displays.
+            Was then hired to rebuild the entire front-end system in the Vue framework and then to create a mobile friendly web version of the application.</p>
+        <!-- </div> -->
         <h3>Built With: Vue.js, Vuex, Firebase, D3.js, CSS Grid, Media Queries</h3>
         <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
         <h2>Value Request</h2>
+        <!-- <div class="content"> -->
+        <img src="../assets/Value Request.png">
         <p>Assisted with the front-end development of a commercial appraisal application that allows users to
-          upload CSV files, modify the CSV files in browser, conduct regression analysis with the results being
-          charted in the application, and then pull user selected regressions into an adjustment grid.
-          The adjustment grid then allows a user to pull in a number of sales comparables and to make
-          real-time adjustments in various factors that the value of their subject propery. Upon completion of
-          their anaylsis of all these criteria, the application export a CSV report for them to be able to send to their clients.</p>
-        <h3>Built With: Vue.js, Vuex, Chart.js</h3>
+          upload and modify CSV files in browser, conduct regression analysis and view charted results, and then pull selected regressions into an adjustment grid.
+          The adjustment grid is an editable table with reactive calculations used to assess the value of a subject property.</p>
+        <!-- </div> -->
+        <h3>Built With: Vue.js, Vuex, Auth0, Chart.js</h3>
         <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
         <h2>Penny Pincher</h2>
-        <p>A Mint-like personal budgeting web application.
-        </p>
+        <img src="../assets/logo.png">
+        <p>A Mint-like personal budgeting web application with an editable table of expenses that performs real-time
+          reactive calculations and displays.</p>
         <h3>Built With: Vue.js, Vuex, Auth0, GraphQL, GraphCool, and a Static Site Generator</h3>
         <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
-        <h2>Admin Panel</h2>
-        <p>A custom built admin panel to allow for the management of users and Saas type applications.
+        <h2>Agilent - Admin Panel</h2>
+        <img src="../assets/logo.png">
+        <p>A custom built admin panel to allow for the management of users and SaaS type applications.
         </p>
         <h3>Built With: Vue.js, GraphQL, GraphCool, and a Static Site Generator</h3>
         <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
         <h2>Construction Central</h2>
-        <p>A construction management web application for a custom home builder that was used internally to manage all of their day-to-day operations.
-          The application started as a simple vendor management application and grew to include the following modules:
-          customer relationship management, estimating, budgeting, project management, job costing, and bookkeeping.
+        <img src="../assets/logo.png">
+        <p>A construction management web application for custom home builders with the following modules:
+          customer relationship management, vendor management, estimating, budgeting, project management, job costing, and bookkeeping.
         </p>
         <h3>Built With: Meteor.js, MongoDB</h3>
         <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
         <h2>Cloud Cutlist</h2>
-        <p>An ERP type web application that was used by a small manufacturing company to allow for a stream-lined ordering and manufacturing process.
+        <img src="../assets/logo.png">
+        <p>An ERP web application for small-scale manufacturing companies to allow for a stream-lined ordering and manufacturing process.
           The application included the following modules:
-          customer relationship manager, order management, process management, parametric product template modeling, and a Cut-List & Bill of Materials generation.
+          customer relationship manager, order management, process management, parametric product template modeling, and a Cut-List & Bill of Materials generator.
         </p>
         <h3>Built With: Meteor.js, MongoDB</h3>
         <button>Link coming soon</button>
@@ -93,6 +102,7 @@ export default {
   h1 {
     padding-bottom: 2%;
     color:  rgba(255, 255, 255, 0.90);
+    text-shadow: 1.5vh 1.5vh 13vh rgba(0,0,0,0.75);
   }
   /* opacity: 1;
   filter: alpha(opacity=50); For IE8 and earlier */
@@ -101,40 +111,64 @@ export default {
   grid-column:  1 / -1; /* -1 causes header to expand to the end of grid regardless of number of columns*/
 }
 .project-box {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 7vh 32vh auto 10vh 10vh;
   @include shadow2;
   opacity: 1;
   background-color:  rgba(255, 255, 255, 1);
   margin-bottom: 1vh;
   padding: 3vh 3vw;
   h2 {
+    // border: 1px solid red;
+    grid-column: 1 / 3;
     padding-bottom: 2vh;
+    height: 3vh;
   }
   h3 {
-    margin-top: 2vh;
+    // border: 1px solid red;
+    grid-column: 1 / 3;
+    margin-top: 3vh;
+  }
+  img {
+    grid-column: 1 / 3;
+    height: 30vh;
+    //padding-bottom: 2vh;
+    //width: 30vh;
   }
   p {
+    // border: 1px solid red;
+    grid-column: 1 / 3;
     font-size: 2vh;
     color: rgba(0,0,0,0.75);
+    top: 0;
+  }
+  button {
+    @include shadow4;
+    // @include inset-shadow3;
+    margin-top: 1vh;
+    // background-color: white;
+    background-color: var(--color2);
+    color: white;
+    border: none;
+    border-radius: 1vh;
+    a {
+      color: white;
+    }
+  }
+  button:hover {
+    @include shadow3;
+  }
+  .content {
+    // grid-column: 1 / 3;
+    // display: flex;
+    // // flex-wrap: wrap;
+    // align-items: flex-start;
   }
 }
 .project-box:hover{
 }
-button {
-  @include shadow4;
-  // @include inset-shadow3;
-  margin-top: 2vh;
-  // background-color: white;
-  background-color: var(--color2);
-  color: white;
-  border: none;
-  border-radius: 1vh;
-  a {
-    color: white;
-  }
-}
-button:hover{
-  @include shadow3;
-}
+
 .background {
   background-color: lightgray;
 }

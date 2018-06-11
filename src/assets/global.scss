@@ -39,3 +39,8 @@
 	-moz-box-shadow: .25vh .25vh 2vh 0vh rgba(0,0,0,0.75) inset;
 	box-shadow: .25vh .25vh 2vh 0vh rgba(0,0,0,0.75) inset;
 }
+@mixin text-shadow1 {
+  -webkit-text-shadow: 1.5vh 1.5vh 13vh 0vh rgba(0,0,0,0.75);
+  -moz-text-shadow: 1.5vh 1.5vh 13vh 0vh rgba(0,0,0,0.75);
+  text-shadow: 1.5vh 1.5vh 13vh 0vh rgba(0,0,0,0.75);
+}
