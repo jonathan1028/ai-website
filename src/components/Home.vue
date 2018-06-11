@@ -10,7 +10,7 @@
         </defs>
         <rect x="0" y="0" width="100%" height="100%" fill="url(#lgrad)"/>
       </svg> -->
-      <h1>Agilent is</h1>
+      <h1 class="slideInRight">Agilent is</h1>
       <h2>Agile + Intelligent</h2>
     </div>
     <div class="panel2">
@@ -78,59 +78,29 @@ export default {
 </script>
 
 <style scoped>
-  @keyframes slideInRight {
-    from {
-      margin-left: 100%;
-      width: 100%;
-    }
-
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-  @keyframes slideInLeft {
-    from {
-      transform: translate3d(-100%, 0, 0);
-      visibility: visible;
-    }
-
-    to {
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  h1 {
-    padding-bottom: 2%;
-  }
-  li {
-    padding-left: 0;
-    margin: 0;
-    font-size: 1.2em;
-    list-style-type: none;
-  }
   .container {
     display: grid;
     grid-template-rows: auto auto auto auto auto;
   }
+  h1 {
+    padding-bottom: 2vh;
+  }
   .panel1, .panel2, .panel3, .panel4, .panel5 {
     height: auto;
-    padding: 1% 10%;
-    border: 1px solid #BFBFBF;
+    padding: .5vh 5vh;
+    border-bottom: .15vh solid #BFBFBF;
   }
   .panel1 {
-    padding-top: 2.5%;
-    padding-bottom: 5%;
+    padding-left: 5vw;
+    padding-top: 6vh;
+    padding-bottom: 4vh;
   }
   .panel1 > h1 {
-    font-size: 8em;
-    margin: 0;
-    padding: 0;
-    animation-duration: 2s;
-    animation-name: slideInRight;
+    font-size: 20vh;
   }
   .panel1 > h2 {
-    font-size: 3em;
-    padding-left: 50%;
+    font-size: 10vh;
+    padding-left: 40vw;
   }
   .panel2, .panel3, .panel4, .panel5 {
     padding: 3% 10% 6% 10%;
@@ -161,6 +131,27 @@ export default {
   }
   .hidden {
     opacity: 0;
+  }
+  @keyframes slideInRight {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+
+    to {
+      margin-left: 0vw;
+      width: 100%;
+    }
+  }
+  @keyframes slideInLeft {
+    from {
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+
+    to {
+      transform: translate3d(0, 0, 0);
+    }
   }
   .slideInLeft {
     opacity: 1;

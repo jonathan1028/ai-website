@@ -1,24 +1,24 @@
 <template>
   <div class="container gradient">
     <div class="main-box">
-      <h1>Projects</h1>
+      <h1 class="header">Projects</h1>
       <div class="project-box flipInX">
-        <h1>Customer Relationship Manager</h1>
+        <h2>Customer Relationship Manager</h2>
         <p>A modern CRM built with optimistic reponse (no page refreshes), lightning fast searh and sort technology, and statically generated.</p>
         <h3>Built With: Vue.js, GraphQL, GraphCool, and a Static Site Generator</h3>
         <button>
           <a href='http://crm.agilentinnovations.com'>View Demo</a>
-          </button>
+        </button>
       </div>
-      <div class="project-box">
-        <h1>DGnet Watchdog</h1>
+      <div class="project-box flipInX">
+        <h2>DGnet Watchdog</h2>
         <p>A enterprise web application used by customers such as GE for asset monitoring. Hired originally to build data visualizations for their front-end displays.
           Was then hired to rebuild their entire front-end system in the Vue framework, and then hired to create a mobile friendly web version of the application.</p>
         <h3>Built With: Vue.js, Vuex, Firebase, D3.js, CSS Grid, Media Queries</h3>
-        <h3>Link coming soon</h3>
+        <button>Link coming soon</button>
       </div>
-      <div class="project-box">
-        <h1>Value Request</h1>
+      <div class="project-box flipInX">
+        <h2>Value Request</h2>
         <p>Assisted with the front-end development of a commercial appraisal application that allows users to
           upload CSV files, modify the CSV files in browser, conduct regression analysis with the results being
           charted in the application, and then pull user selected regressions into an adjustment grid.
@@ -26,39 +26,39 @@
           real-time adjustments in various factors that the value of their subject propery. Upon completion of
           their anaylsis of all these criteria, the application export a CSV report for them to be able to send to their clients.</p>
         <h3>Built With: Vue.js, Vuex, Chart.js</h3>
-        <h3>Link coming soon</h3>
+        <button>Link coming soon</button>
       </div>
-      <div class="project-box">
-        <h1>Penny Pincher</h1>
+      <div class="project-box flipInX">
+        <h2>Penny Pincher</h2>
         <p>A Mint-like personal budgeting web application.
         </p>
         <h3>Built With: Vue.js, Vuex, Auth0, GraphQL, GraphCool, and a Static Site Generator</h3>
-        <h3>Link coming soon</h3>
+        <button>Link coming soon</button>
       </div>
-      <div class="project-box">
-        <h1>Admin Panel</h1>
+      <div class="project-box flipInX">
+        <h2>Admin Panel</h2>
         <p>A custom built admin panel to allow for the management of users and Saas type applications.
         </p>
         <h3>Built With: Vue.js, GraphQL, GraphCool, and a Static Site Generator</h3>
-        <h3>Link coming soon</h3>
+        <button>Link coming soon</button>
       </div>
-      <div class="project-box">
-        <h1>Construction Central</h1>
+      <div class="project-box flipInX">
+        <h2>Construction Central</h2>
         <p>A construction management web application for a custom home builder that was used internally to manage all of their day-to-day operations.
           The application started as a simple vendor management application and grew to include the following modules:
           customer relationship management, estimating, budgeting, project management, job costing, and bookkeeping.
         </p>
         <h3>Built With: Meteor.js, MongoDB</h3>
-        <h3>Link coming soon</h3>
+        <button>Link coming soon</button>
       </div>
-      <div class="project-box">
-        <h1>Cloud Cutlist</h1>
+      <div class="project-box flipInX">
+        <h2>Cloud Cutlist</h2>
         <p>An ERP type web application that was used by a small manufacturing company to allow for a stream-lined ordering and manufacturing process.
           The application included the following modules:
           customer relationship manager, order management, process management, parametric product template modeling, and a Cut-List & Bill of Materials generation.
         </p>
         <h3>Built With: Meteor.js, MongoDB</h3>
-        <h3>Link coming soon</h3>
+        <button>Link coming soon</button>
       </div>
       <!-- <div class="project-box">
         <h1>Upcoming Projects</h1>
@@ -80,58 +80,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@keyframes flipInX {
-  from {
-    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
-    animation-timing-function: ease-in;
-    opacity: 0;
-  }
-
-  40% {
-    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
-    animation-timing-function: ease-in;
-  }
-
-  60% {
-    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
-    opacity: 1;
-  }
-
-  80% {
-    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
-  }
-
-  to {
-    transform: perspective(400px);
-  }
-}
-
-.flipInX {
-  backface-visibility: visible !important;
-  animation-name: flipInX;
-}
-@keyframes slideInLeft {
-  from {
-    transform: translate3d(-100%, 0, 0);
-    visibility: visible;
-  }
-
-  to {
-    transform: translate3d(0, 0, 0);
-  }
-}
-@keyframes fadeIn1 {
-    0%   {background-color:rgba(255, 255, 255, 0.00)};
-    25%  {background-color:rgba(255, 255, 255, 0.20)};
-    50%  {background-color:rgba(255, 255, 255, 0.70)};
-    100% {background-color:rgba(255, 255, 255, 0.90)};
-}
-@keyframes fadeIn2 {
-    0%   {color:rgba(255, 255, 255, 0.00)};
-    25%  {color:rgba(255, 255, 255, 0.20)};
-    50%  {color:rgba(255, 255, 255, 0.70)};
-    100% {color:rgba(255, 255, 255, 0.90)};
-}
 .project-box > h1, h2, h3, p, ul {
   padding-bottom: 2%;
 }
@@ -143,24 +91,56 @@ button {
   margin-bottom: 2%;
 }
 .main-box {
-  padding: 1% 0%;
   background-color:  rgba(255, 255, 255, 0.0);
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  grid-column-gap: 4vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  padding: 1% 0%;
   /* opacity: 1;
   filter: alpha(opacity=50); For IE8 and earlier */
 }
 .main-box > h1 {
-  padding-left: 10%;
+  /* padding-left: 10%; */
   padding-bottom: 2%;
-  font-size: 2.5em;
+  /* font-size: 2.5em; */
   color:  rgba(255, 255, 255, 0.90);
-  animation-name: fadeInX;
-  animation-duration: 2s;
 }
-a {
+.header {
+  grid-column:  1 / -1; /* -1 causes header to expand to the end of grid regardless of number of columns*/
+}
+.project-box {
+  opacity: 1;
+  background-color:  rgba(255, 255, 255, 1);
+  /* margin-left: 5vw; */
+  margin-bottom: 1vh;
+  padding: 3vh 3vw;
+  -webkit-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+}
+.project-box:hover{
+  /* -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01); */
+  /* border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px #aaaaaa; */
+  -webkit-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+}
+.project-box > h2 {
+  padding-bottom: 2vh;
+}
+.project-box > p {
+  font-size: 2vh;
+}
+/* a {
   font-size: 1.5em;
   color:   rgba(35,150,153,1);
-  text-decoration: none;
-}
+} */
 button {
   margin-top: 2%;
   background-color: white;
@@ -181,31 +161,8 @@ button:hover > a{
   -ms-transform: scale(1.05);
   transform: scale(1.05); */
 }
-.project-box {
-  opacity: 1;
-  background-color:  rgba(255, 255, 255, 1);
-  margin: 0 10% 1% 10%;
-  padding: 1% 5%;
-  /* border: 1px solid #BFBFBF; */
-  animation-name: slideInLeft;
-  animation-duration: 2s;
-  /* -webkit-box-shadow: 0 1px 2px #777;
-  -moz-box-shadow: 0 2px 1px #777;
-  box-shadow: 2px 2px 1px #777; */
-  /* border: 1px solid #BFBFBF;
-  background-color: white;
-  box-shadow: 3px 3px 3px 3px #aaaaaa; */
- -moz-box-shadow: 5px 5px rgba(0,0,0,0.5);
--webkit-box-shadow: 5px 5px rgba(0,0,0,0.5);
-box-shadow: 5px 5px rgba(0,0,0,0.5);
-}
-.project-box:hover{
-  /* -webkit-transform: scale(1.01);
-  -ms-transform: scale(1.01);
-  transform: scale(1.01); */
-  /* border: 1px solid #BFBFBF;
-  background-color: white;
-  box-shadow: 3px 3px 3px 3px #aaaaaa; */
+.background {
+  background-color: lightgray;
 }
 .gradient {
   background: -moz-linear-gradient(325deg, rgba(45,48,245,1) 0%, rgba(35,150,153,1) 100%); /* ff3.6+ */
@@ -247,5 +204,57 @@ box-shadow: 5px 5px rgba(0,0,0,0.5);
         -ms-transform:skew(8deg) rotate(3deg);
          -o-transform:skew(8deg) rotate(3deg);
             transform:skew(8deg) rotate(3deg);
+}
+.flipInX {
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+  animation-duration: 2s;
+}
+@keyframes flipInX {
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    transform: perspective(400px);
+  }
+}
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeIn1 {
+    0%   {background-color:rgba(255, 255, 255, 0.00)};
+    25%  {background-color:rgba(255, 255, 255, 0.20)};
+    50%  {background-color:rgba(255, 255, 255, 0.70)};
+    100% {background-color:rgba(255, 255, 255, 0.90)};
+}
+@keyframes fadeIn2 {
+    0%   {color:rgba(255, 255, 255, 0.00)};
+    25%  {color:rgba(255, 255, 255, 0.20)};
+    50%  {color:rgba(255, 255, 255, 0.70)};
+    100% {color:rgba(255, 255, 255, 0.90)};
 }
 </style>
