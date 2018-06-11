@@ -10,7 +10,7 @@
         </defs>
         <rect x="0" y="0" width="100%" height="100%" fill="url(#lgrad)"/>
       </svg> -->
-      <h1 class="slideInRight">Agilent is</h1>
+      <h1 class="slideInMain">Agilent is</h1>
       <h2>Agile + Intelligent</h2>
     </div>
     <div class="panel2">
@@ -132,6 +132,46 @@ export default {
   .hidden {
     opacity: 0;
   }
+  .slideInMain {
+    opacity: 1;
+    animation-duration: 2s;
+    animation-name: slideInMain;
+    /* transform: translate(0, 0); */
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  .slideInLeft {
+    opacity: 1;
+    animation-duration: 3s;
+    animation-name: slideInLeft;
+    /* transform: translate(0, 0); */
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  .slideInRight {
+    opacity: 1;
+    animation-duration: 2s;
+    animation-name: slideInRight;
+    /* transform: translate(0, 0); */
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  @keyframes slideInMain {
+    from {
+      margin-left: 100%;
+      width: 100%;
+      font-size: 40vh;
+    }
+
+    to {
+      margin-left: 0vw;
+      width: 100%;
+      font-size: 20vh;
+    }
+  }
   @keyframes slideInRight {
     from {
       margin-left: 100%;
@@ -152,23 +192,5 @@ export default {
     to {
       transform: translate3d(0, 0, 0);
     }
-  }
-  .slideInLeft {
-    opacity: 1;
-    animation-duration: 3s;
-    animation-name: slideInLeft;
-    /* transform: translate(0, 0); */
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
-  }
-  .slideInRight {
-    opacity: 1;
-    animation-duration: 2s;
-    animation-name: slideInRight;
-    /* transform: translate(0, 0); */
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
   }
 </style>
