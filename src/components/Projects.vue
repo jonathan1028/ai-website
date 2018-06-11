@@ -1,5 +1,5 @@
 <template>
-  <div class="container gradient">
+  <div class="container background">
     <div class="main-box">
       <h1 class="header">Projects</h1>
       <div class="project-box flipInX">
@@ -79,18 +79,10 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.project-box > h1, h2, h3, p, ul {
-  padding-bottom: 2%;
-}
-ul {
-  padding-left: 5%;
-}
-button {
-  padding: 1%;
-  margin-bottom: 2%;
-}
+<style lang="scss" scoped>
+@import "../assets/global.scss";
 .main-box {
+  // @include border-radius(10px);
   background-color:  rgba(255, 255, 255, 0.0);
   display: grid;
   grid-template-columns: 40vw 40vw;
@@ -98,6 +90,9 @@ button {
   margin-left: 8vw;
   margin-right: 8vw;
   padding: 1% 0%;
+  p {
+    font-size: 1vh;
+  }
   /* opacity: 1;
   filter: alpha(opacity=50); For IE8 and earlier */
 }
@@ -136,6 +131,7 @@ button {
 }
 .project-box > p {
   font-size: 2vh;
+  color: rgba(0,0,0,0.75);
 }
 /* a {
   font-size: 1.5em;
