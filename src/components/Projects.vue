@@ -5,7 +5,9 @@
       <div class="project-box flipInX">
         <h2>Agilent - Customer Relationship Manager</h2>
         <!-- <div class="content"> -->
-          <img src="../assets/CRM.png">
+          <a href='http://crm.agilentinnovations.com'>
+          <img src="../assets/CRM.png" href='http://crm.agilentinnovations.com'>
+          </a>
           <p>A modern Customer Relationship Manager project in progress that is built as a Single Page Application (no page refreshes) with lightning fast searh and sort technology and statically generated.</p>
         <!-- </div> -->
         <h3>Built With: Vue.js, GraphQL, GraphCool, and a Static Site Generator</h3>
