@@ -1,5 +1,5 @@
 <template>
-  <div class="container background">
+  <div class="container gradient">
     <div class="main-box">
       <h1 class="header">Projects</h1>
       <div class="project-box flipInX">
@@ -90,72 +90,50 @@ export default {
   margin-left: 8vw;
   margin-right: 8vw;
   padding: 1% 0%;
-  p {
-    font-size: 1vh;
+  h1 {
+    padding-bottom: 2%;
+    color:  rgba(255, 255, 255, 0.90);
   }
   /* opacity: 1;
   filter: alpha(opacity=50); For IE8 and earlier */
-}
-.main-box > h1 {
-  /* padding-left: 10%; */
-  padding-bottom: 2%;
-  /* font-size: 2.5em; */
-  color:  rgba(255, 255, 255, 0.90);
 }
 .header {
   grid-column:  1 / -1; /* -1 causes header to expand to the end of grid regardless of number of columns*/
 }
 .project-box {
+  @include shadow2;
   opacity: 1;
   background-color:  rgba(255, 255, 255, 1);
-  /* margin-left: 5vw; */
   margin-bottom: 1vh;
   padding: 3vh 3vw;
-  -webkit-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+  h2 {
+    padding-bottom: 2vh;
+  }
+  h3 {
+    margin-top: 2vh;
+  }
+  p {
+    font-size: 2vh;
+    color: rgba(0,0,0,0.75);
+  }
 }
 .project-box:hover{
-  /* -webkit-transform: scale(1.01);
-  -ms-transform: scale(1.01);
-  transform: scale(1.01); */
-  /* border: 1px solid #BFBFBF;
-  background-color: white;
-  box-shadow: 3px 3px 3px 3px #aaaaaa; */
-  -webkit-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
 }
-.project-box > h2 {
-  padding-bottom: 2vh;
-}
-.project-box > p {
-  font-size: 2vh;
-  color: rgba(0,0,0,0.75);
-}
-/* a {
-  font-size: 1.5em;
-  color:   rgba(35,150,153,1);
-} */
 button {
-  margin-top: 2%;
-  background-color: white;
-  border: 2px solid  rgba(35,150,153,1);
-  border-radius: 10px;
+  @include shadow4;
+  // @include inset-shadow3;
+  margin-top: 2vh;
+  // background-color: white;
+  background-color: var(--color2);
+  color: white;
+  border: none;
+  border-radius: 1vh;
+  a {
+    color: white;
+  }
 }
 button:hover{
-  background-color: rgba(35,150,153,1);
-  color: white;
-  /* -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05); */
-}
-button:hover > a{
-  background-color: rgba(35,150,153,1);
-  color: white;
-  /* -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05); */
+  @include shadow3;
 }
 .background {
   background-color: lightgray;

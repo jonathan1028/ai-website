@@ -20,7 +20,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import "../assets/global.scss";
 /* ------------------------ Application Padding, Margin, & Background --------------- */
 /* Removes default margin and padding for all html elements */
 * { margin: 0; padding: 0; }
@@ -29,8 +30,8 @@ html {
 }
 /* ------------------------- Application Variables ------------------------- */
 :root {
-  --theme-color1: rgba(45,48,245,1);
-  --theme-color2: rgba(35,150,153,1);
+  --color1: rgba(45,48,245,1);
+  --color2: rgb(42, 177, 182);
   --link-color: rgb(48,62,240);
   --shadow3: 1.5vh -1vh 1vh rgba(0, 7, 2, 0.3);
   --shadow1: 0 .5vh 2vh rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -70,6 +71,8 @@ a {
   top: 0; /* For fixed header */
   border: .15vh solid #BFBFBF;
   background-color: white;
+  // @include shadow2;
+  @include inset-shadow4;
 }
 .main-content {
   grid-column-start:  1;
@@ -149,7 +152,7 @@ li {
 /* ------------------------------------ Application Button Styling ----------------------------- */
 button{
   font-size: 2vh;
-  padding: .75vh;
+  padding: 1vh;
   height: auto;
   width: auto;
   -webkit-box-shadow:0 .3vh 1vh rgba(0, 0, 0, 0.3), 0 0 2vh rgba(0, 0, 0, 0.1) inset;
@@ -185,12 +188,6 @@ button:hover{
     border: thin solid white;
     box-shadow: 1vh 1vh 1vh grey;
     white-space: nowrap;
-}
-/* ------------------------------- Application Shadows --------------------------- */
-.shadow1 {
-  -webkit-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
 }
 
 /* Extra Small Devices, Phones */

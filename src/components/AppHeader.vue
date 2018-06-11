@@ -24,7 +24,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import "../assets/global.scss";
 /* .header{
   position: fixed;
   top: 0;

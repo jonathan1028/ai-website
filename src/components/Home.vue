@@ -77,7 +77,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "../assets/global.scss";
   .container {
     display: grid;
     grid-template-rows: auto auto auto auto auto;
@@ -86,6 +87,8 @@ export default {
     padding-bottom: 2vh;
   }
   .panel1, .panel2, .panel3, .panel4, .panel5 {
+    @include shadow2;
+    @include inset-shadow3;
     height: auto;
     padding: .5vh 5vh;
     border-bottom: .15vh solid #BFBFBF;
@@ -94,13 +97,13 @@ export default {
     padding-left: 5vw;
     padding-top: 6vh;
     padding-bottom: 4vh;
-  }
-  .panel1 > h1 {
-    font-size: 20vh;
-  }
-  .panel1 > h2 {
-    font-size: 10vh;
-    padding-left: 40vw;
+    h1 {
+      font-size: 20vh;
+    }
+    h2 {
+      font-size: 10vh;
+      padding-left: 40vw;
+    }
   }
   .panel2, .panel3, .panel4, .panel5 {
     padding: 3% 10% 6% 10%;

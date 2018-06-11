@@ -4,3 +4,38 @@
       -ms-border-radius: $radius;
           border-radius: $radius;
 }
+@mixin shadow1 {
+  -webkit-box-shadow: 1.5vh 1.5vh 13vh 0vh rgba(0,0,0,0.75);
+  -moz-box-shadow: 1.5vh 1.5vh 13vh 0vh rgba(0,0,0,0.75);
+  box-shadow: 1.5vh 1.5vh 13vh 0vh rgba(0,0,0,0.75);
+}
+@mixin shadow2 {
+  -webkit-box-shadow: 1.5vh 1.5vh 8vh 0vh rgba(0,0,0,0.75);
+	-moz-box-shadow: 1.5vh 1.5vh 8vh 0vh rgba(0,0,0,0.75);
+	box-shadow: 1.5vh 1.5vh 8vh 0vh rgba(0,0,0,0.75);
+}
+@mixin shadow3 {
+  -webkit-box-shadow: .25vh .25vh 2vh 0vh rgba(0,0,0,0.75);
+	-moz-box-shadow: .25vh .25vh 2vh 0vh rgba(0,0,0,0.75);
+	box-shadow: .25vh .25vh 2vh 0vh rgba(0,0,0,0.75);
+}
+@mixin shadow4 {
+  -webkit-box-shadow: .25vh .25vh 1vh 0vh rgba(0,0,0,0.75);
+	-moz-box-shadow: .25vh .25vh 1vh 0vh rgba(0,0,0,0.75);
+	box-shadow: .25vh .25vh 1vh 0vh rgba(0,0,0,0.75);
+}
+@mixin inset-shadow2 {
+  -webkit-box-shadow: 1.5vh 1.5vh 8vh 0vh rgba(0,0,0,0.75) inset;
+	-moz-box-shadow: 1.5vh 1.5vh 8vh 0vh rgba(0,0,0,0.75) inset;
+	box-shadow: 1.5vh 1.5vh 8vh 0vh rgba(0,0,0,0.75) inset;
+}
+@mixin inset-shadow3 {
+  -webkit-box-shadow: .25vh .25vh 5vh 0vh rgba(0,0,0,0.75) inset;
+	-moz-box-shadow: .25vh .25vh 5vh 0vh rgba(0,0,0,0.75) inset;
+	box-shadow: .25vh .25vh 5vh 0vh rgba(0,0,0,0.75) inset;
+}
+@mixin inset-shadow4 {
+  -webkit-box-shadow: .25vh .25vh 2vh 0vh rgba(0,0,0,0.75) inset;
+	-moz-box-shadow: .25vh .25vh 2vh 0vh rgba(0,0,0,0.75) inset;
+	box-shadow: .25vh .25vh 2vh 0vh rgba(0,0,0,0.75) inset;
+}
