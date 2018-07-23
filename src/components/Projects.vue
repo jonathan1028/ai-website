@@ -6,7 +6,7 @@
         <h2>GCN - Social Networking Platform</h2>
         <!-- <div class="content"> -->
           <a href='http://gcn.agilentinnovations.com'>
-          <img src="../assets/GCN.png" href='http://gcn.agilentinnovations.com'>
+            <img src="../assets/GCN.png" href='http://gcn.agilentinnovations.com'>
           </a>
           <p>The LinkedIn for volunteering. A Single Page Application (no page refreshes) with lightning fast search and data caching technology. Login with user: test5@test.com and pass: test </p>
         <!-- </div> -->
@@ -19,7 +19,7 @@
         <h2>Agilent - Customer Relationship Manager</h2>
         <!-- <div class="content"> -->
           <a href='http://crm.agilentinnovations.com'>
-          <img src="../assets/CRM.png" href='http://crm.agilentinnovations.com'>
+            <img src="../assets/CRM.png" href='http://crm.agilentinnovations.com'>
           </a>
           <p>A modern Customer Relationship Manager project in progress that is built as a Single Page Application (no page refreshes) with lightning fast search and sort technology and statically generated.</p>
         <!-- </div> -->
@@ -31,7 +31,9 @@
       <div class="project-box flipInX">
         <h2>DGnet Watchdog - Asset Monitoring</h2>
         <!-- <div class="content"> -->
-          <img src="../assets/DGN.png">
+          <a href='https://watchdog.dgnet.cloud/'>
+            <img src="../assets/DGN.png" ref='https://watchdog.dgnet.cloud/'>
+          </a>
           <p>An enterprise web application used by customers such as GE for asset monitoring. Hired originally to build data visualizations for their front-end displays.
             Was then hired to rebuild the entire front-end system in the Vue framework and then to create a mobile friendly web version of the application.</p>
         <!-- </div> -->
