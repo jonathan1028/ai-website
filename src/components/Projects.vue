@@ -6,7 +6,7 @@
         <h2>GCN - Social Networking Platform</h2>
         <!-- <div class="content"> -->
           <a href='http://gcn.agilentinnovations.com'>
-            <img src="../assets/GCN.png" href='http://gcn.agilentinnovations.com'>
+            <img src="../assets/gcn.png" href='http://gcn.agilentinnovations.com'>
           </a>
           <p>The LinkedIn for volunteering. A Single Page Application (no page refreshes) with lightning fast search and data caching technology. Login with user: test5@test.com and pass: test </p>
         <!-- </div> -->
