@@ -3,30 +3,45 @@
     <div class="main-box">
       <h1 class="header">Projects</h1>
       <div class="project-box flipInX">
+        <h2>GCN - Social Networking Platform</h2>
+        <!-- <div class="content"> -->
+          <a href='http://gcn.agilentinnovations.com'>
+          <img src="../assets/GCN.png" href='http://gcn.agilentinnovations.com'>
+          </a>
+          <p>The LinkedIn for volunteering. A Single Page Application (no page refreshes) with lightning fast search and data caching technology. Login with user: test5@test.com and pass: test </p>
+        <!-- </div> -->
+        <h3>Built With: Vue.js, GraphQL, Apollo, GraphCool, and a Static Site Generator</h3>
+        <button>
+          <a href='http://gcn.agilentinnovations.com'>View Demo</a>
+        </button>
+      </div>
+      <div class="project-box flipInX">
         <h2>Agilent - Customer Relationship Manager</h2>
         <!-- <div class="content"> -->
           <a href='http://crm.agilentinnovations.com'>
           <img src="../assets/CRM.png" href='http://crm.agilentinnovations.com'>
           </a>
-          <p>A modern Customer Relationship Manager project in progress that is built as a Single Page Application (no page refreshes) with lightning fast searh and sort technology and statically generated.</p>
+          <p>A modern Customer Relationship Manager project in progress that is built as a Single Page Application (no page refreshes) with lightning fast search and sort technology and statically generated.</p>
         <!-- </div> -->
-        <h3>Built With: Vue.js, GraphQL, GraphCool, and a Static Site Generator</h3>
+        <h3>Built With: Vue.js, GraphQL, GraphCool, Apollo, and a Static Site Generator</h3>
         <button>
           <a href='http://crm.agilentinnovations.com'>View Demo</a>
         </button>
       </div>
       <div class="project-box flipInX">
-        <h2>DGnet Watchdog</h2>
+        <h2>DGnet Watchdog - Asset Monitoring</h2>
         <!-- <div class="content"> -->
           <img src="../assets/DGN.png">
           <p>An enterprise web application used by customers such as GE for asset monitoring. Hired originally to build data visualizations for their front-end displays.
             Was then hired to rebuild the entire front-end system in the Vue framework and then to create a mobile friendly web version of the application.</p>
         <!-- </div> -->
         <h3>Built With: Vue.js, Vuex, Firebase, D3.js, CSS Grid, Media Queries</h3>
-        <button>Link coming soon</button>
+        <button>
+          <a href=https://watchdog.dgnet.cloud/>View Production Site</a>
+        </button>
       </div>
       <div class="project-box flipInX">
-        <h2>Value Request</h2>
+        <h2>Value Request - Real Estate Appraisal</h2>
         <!-- <div class="content"> -->
         <img src="../assets/Value Request.png">
         <p>Assisted with the front-end development of a commercial appraisal application that allows users to
@@ -37,7 +52,7 @@
         <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
-        <h2>Penny Pincher</h2>
+        <h2>Penny Pincher - Personal Finance</h2>
         <img src="../assets/logo.png">
         <p>A Mint-like personal budgeting web application with an editable table of expenses that performs real-time
           reactive calculations and displays.</p>
@@ -53,8 +68,8 @@
         <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
-        <h2>Construction Central</h2>
-        <img src="../assets/logo.png">
+        <h2>Construction Central - Construction ERP</h2>
+        <img src="../assets/meteor.jpeg">
         <p>A construction management web application for custom home builders with the following modules:
           customer relationship management, vendor management, estimating, budgeting, project management, job costing, and bookkeeping.
         </p>
@@ -62,8 +77,8 @@
         <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
-        <h2>Cloud Cutlist</h2>
-        <img src="../assets/logo.png">
+        <h2>Cloud Cutlist - Manufacturing ERP</h2>
+        <img src="../assets/rails.png">
         <p>An ERP web application for small-scale manufacturing companies to allow for a stream-lined ordering and manufacturing process.
           The application included the following modules:
           customer relationship manager, order management, process management, parametric product template modeling, and a Cut-List & Bill of Materials generator.
@@ -135,6 +150,7 @@ export default {
   img {
     grid-column: 1 / 3;
     height: 30vh;
+    max-width: 30vw;
     //padding-bottom: 2vh;
     //width: 30vh;
   }
