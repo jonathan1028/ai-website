@@ -1,20 +1,14 @@
 <template>
-  <div class="header-content">
-      <!-- <div class="main-nav"> -->
-        <!-- Logo -->
-        <div></div>
-        <div class="logo"></div>
-        <!-- Main navigation -->
-        <div></div>
-        <div class="nav-buttons">
-          <router-link to="/">Home</router-link>
-          <div class="sizing">|</div>
-          <router-link to="/projects">Projects</router-link>
-          <div class="sizing">|</div>
-          <router-link to="/learn">Learn</router-link>
-        </div>
-        <div></div>
-      <!-- </div> -->
+  <div class="header">
+    <div class="logo"></div>
+    <!-- Main navigation -->
+    <div class="nav-buttons">
+      <router-link to="/">Home</router-link>
+      <div class="sizing">|</div>
+      <router-link to="/projects">Projects</router-link>
+      <div class="sizing">|</div>
+      <router-link to="/learn">Learn</router-link>
+    </div>
   </div>
 </template>
 
@@ -24,7 +18,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../assets/global.scss";
 /* .header{
   position: fixed;
@@ -38,31 +32,28 @@ export default {
   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 } */
-.header-content{
-  display: grid;
-  grid-template-columns: 5vh auto auto auto 5vh;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+.header {
+  display: flex;
+  justify-content: flex-end;
+  // grid-template-columns: 5vh auto auto auto 5vh;
+  // align-items: center;
+  // width: 100%;
+  // height: 100%;
   /* margin: 0 auto; */
 }
-.logo{
+.logo {
   font-size: .5vh;
   color:rgb(48,62,240);
   /* margin-right: 5em; */
 }
-.main-nav{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.nav-buttons{
+.nav-buttons {
+  width: 30vw;
   display: flex;
   align-items: center;
   justify-content:space-around;
   color: #3273dc;
-  /* cursor: pointer; */
   text-decoration: none;
+  margin-right: 2.5vw;
   padding: 0vh, 2.5vw, 1vh, 2.5vw;
 }
 .nav-buttons a{

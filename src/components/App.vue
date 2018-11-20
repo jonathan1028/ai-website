@@ -1,12 +1,6 @@
 <template>
-  <div id="app" class="app">
-      <app-header class="app-header"></app-header>
-      <div class="main-content">
-        <!-- Inject page content -->
-        <router-view></router-view>
-      </div>
-      <div class="footer">
-      </div>
+  <div>
+    <router-view></router-view>
   </div>
 </template>
 

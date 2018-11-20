@@ -5,14 +5,15 @@
       <div class="project-box flipInX">
         <h2>GCN - Social Networking Platform</h2>
         <!-- <div class="content"> -->
-          <a href='http://gcn.agilentinnovations.com'>
-            <img src="../assets/gcn.png" href='http://gcn.agilentinnovations.com'>
+          <a href='https://www.goodcitizen.network/#/'>
+            <img src="../assets/gcn.png" href='https://www.goodcitizen.network/#/'>
           </a>
-          <p>The LinkedIn for volunteering. A Single Page Application (no page refreshes) with lightning fast search and data caching technology. Login with user: test5@test.com and pass: test </p>
+          <p>The LinkedIn for volunteering. A social network site where non-profit organizations can post all of their volunteering and donation opportunities and where users can
+            interact, commit, and organize around them. It includes messaging, gamification, in-app donations, and more.</p>
         <!-- </div> -->
-        <h3>Built With: Vue.js, GraphQL, Apollo, GraphCool, and a Static Site Generator</h3>
+        <h3>Built With: Vue, Node, CSS Grid</h3>
         <button>
-          <a href='http://gcn.agilentinnovations.com'>View Demo</a>
+          <a href='https://www.goodcitizen.network/#/'>View Production Site</a>
         </button>
       </div>
       <div class="project-box flipInX">
@@ -23,7 +24,7 @@
           </a>
           <p>A modern Customer Relationship Manager project in progress that is built as a Single Page Application (no page refreshes) with lightning fast search and sort technology and statically generated.</p>
         <!-- </div> -->
-        <h3>Built With: Vue.js, GraphQL, GraphCool, Apollo, and a Static Site Generator</h3>
+        <h3>Built With: Vue, GraphQL, GraphCool, Apollo, and a Static Site Generator</h3>
         <button>
           <a href='http://crm.agilentinnovations.com'>View Demo</a>
         </button>
@@ -37,7 +38,7 @@
           <p>An enterprise web application used by customers such as GE for asset monitoring. Hired originally to build data visualizations for their front-end displays.
             Was then hired to rebuild the entire front-end system in the Vue framework and then to create a mobile friendly web version of the application.</p>
         <!-- </div> -->
-        <h3>Built With: Vue.js, Vuex, Firebase, D3.js, CSS Grid, Media Queries</h3>
+        <h3>Built With: Vue, Vuex, Firebase, D3, CSS Grid</h3>
         <button>
           <a href=https://watchdog.dgnet.cloud/>View Production Site</a>
         </button>
@@ -50,7 +51,7 @@
           upload and modify CSV files in browser, conduct regression analysis and view charted results, and then pull selected regressions into an adjustment grid.
           The adjustment grid is an editable table with reactive calculations used to assess the value of a subject property.</p>
         <!-- </div> -->
-        <h3>Built With: Vue.js, Vuex, Auth0, Chart.js</h3>
+        <h3>Built With: Vue, Vuex, Auth0, Chart.js</h3>
         <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
@@ -58,7 +59,7 @@
         <img src="../assets/logo.png">
         <p>A Mint-like personal budgeting web application with an editable table of expenses that performs real-time
           reactive calculations and displays.</p>
-        <h3>Built With: Vue.js, Vuex, Auth0, GraphQL, GraphCool, and a Static Site Generator</h3>
+        <h3>Built With: Vue, Vuex, Auth0, GraphQL, GraphCool, and a Static Site Generator</h3>
         <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
@@ -66,7 +67,7 @@
         <img src="../assets/logo.png">
         <p>A custom built admin panel to allow for the management of users and SaaS type applications.
         </p>
-        <h3>Built With: Vue.js, GraphQL, GraphCool, and a Static Site Generator</h3>
+        <h3>Built With: Vue, GraphQL, GraphCool, and a Static Site Generator</h3>
         <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
@@ -75,7 +76,7 @@
         <p>A construction management web application for custom home builders with the following modules:
           customer relationship management, vendor management, estimating, budgeting, project management, job costing, and bookkeeping.
         </p>
-        <h3>Built With: Meteor.js, MongoDB</h3>
+        <h3>Built With: Meteor, MongoDB</h3>
         <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
@@ -85,7 +86,7 @@
           The application included the following modules:
           customer relationship manager, order management, process management, parametric product template modeling, and a Cut-List & Bill of Materials generator.
         </p>
-        <h3>Built With: Meteor.js, MongoDB</h3>
+        <h3>Built With: Meteor, MongoDB</h3>
         <button>Link coming soon</button>
       </div>
       <!-- <div class="project-box">
