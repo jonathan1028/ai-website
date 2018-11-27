@@ -72,8 +72,8 @@
             </div>
             <ul>
               </ul>
-            <div class="experience">Good Citizen Network: Lead the re-architecting and build of a new graphQL API to replace an existing NodeJS API. Lead a major refactoring project to bring about code consistency, implement unit testing, and improve application speed. Put in place code reviews to ensure best practices and solid documentation throughout. Setup git workflow and AWS Code Pipelines for continuous development.</div>
-            <div class="experience">DGnet Watchdog: Contracted to build an entirely new front-end SPA and fluid mobile design for an enterprise asset monitoring SaaS.</div>
+            <div class="experience"><span class="underline">Good Citizen Network: </span>Lead the re-architecting and build of a new graphQL API to replace an existing NodeJS API. Lead a major refactoring project to bring about code consistency, implement unit testing, and improve application speed. Put in place code reviews to ensure best practices and solid documentation throughout. Setup git workflow and AWS Code Pipelines for continuous development.</div>
+            <div class="experience"><span class="underline">DGnet Watchdog: </span> Contracted to build an entirely new front-end SPA and fluid mobile design for an enterprise asset monitoring SaaS.</div>
           </div>
           <div class="job">
             <div class="job-header">
@@ -85,7 +85,7 @@
           </div>
           <div class="job">
             <div class="job-header">
-              <div class="company">Iron Rock Construction, &nbsp;</div>
+              <div class="company">Construction Central, &nbsp;</div>
               <div class="position">Product Manager, &nbsp;</div>
               <div class="time">November 2012 – April 2016</div>
             </div>
@@ -272,7 +272,7 @@ export default {
       .section {
         color: black;
         text-align: center;
-        font-size: 8pt;
+        font-size: 9pt;
         font-weight: 500;
         .section-title {
           font-size: 15pt;
@@ -327,9 +327,12 @@ export default {
           }
         }
         .experience {
-          margin-left: 15pt;
+          margin-left: 16pt;
           font-weight: 300;
           margin-bottom: 10pt;
+          .underline {
+            text-decoration: underline;
+          }
         }
       }
     }
