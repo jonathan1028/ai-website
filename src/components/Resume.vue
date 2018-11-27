@@ -6,7 +6,7 @@
           <svg height="30pt" width="30pt" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
             <g><g fill="white" transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"><path d="M4871.6,4951.4c-32.6-40.2-852.8-1144.1-1822.5-2453L1282.2,116.4l1816.7-2447.2L4915.7-4780h84.3h84.3L6901-2330.9L8717.8,116.4L6901,2565.5L5084.3,5012.7l-78.6,5.7C4934.8,5024.2,4923.3,5016.5,4871.6,4951.4z M6674.9,2354.7L8334.5,116.4L6674.9-2120.1C5760.8-3352.3,5007.7-4358.4,5000-4358.4s-762.7,1006.1-1674.9,2238.3L1665.5,116.4L3327,2358.5c916,1232.2,1669.2,2240.2,1676.8,2236.4C5009.6,4593,5762.7,3585,6674.9,2354.7z"/></g></g>
           </svg>
-          <svg 
+          <svg
             class="test"
             height="30pt" width="30pt" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
             <g><g fill="white" transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"><path d="M4871.6,4951.4c-32.6-40.2-852.8-1144.1-1822.5-2453L1282.2,116.4l1816.7-2447.2L4915.7-4780h84.3h84.3L6901-2330.9L8717.8,116.4L6901,2565.5L5084.3,5012.7l-78.6,5.7C4934.8,5024.2,4923.3,5016.5,4871.6,4951.4z M6674.9,2354.7L8334.5,116.4L6674.9-2120.1C5760.8-3352.3,5007.7-4358.4,5000-4358.4s-762.7,1006.1-1674.9,2238.3L1665.5,116.4L3327,2358.5c916,1232.2,1669.2,2240.2,1676.8,2236.4C5009.6,4593,5762.7,3585,6674.9,2354.7z"/></g></g>
@@ -38,36 +38,27 @@
         <div class="section-break"></div>
         <div class="section">
           <div class="section-title">
-            Honors
+            Technical Knowledge
           </div>
-          <div class="item">Empact Entrepreneur's "Most Inspiring Entrepreneurship Story" award and invitation to speak at the United Nations venue in New York.</div>
+          <div class="subsection">Organization</div>
+          <div class="item">Road maps, code reviews, best practices, writing style guides, linting, TDD, high-level documentation, technical debt mgmt plans</div>
+          <div class="subsection">Product Mgmt Tools</div>
+          <div class="item">Scrum, Agile, Kanban, Gantt charts, critical path analysis, Jira, Confluence, Git, GitHub</div>
+          <div class="subsection">Architecture</div>
+          <div class="item">GraphQL APIs, REST APIs, Design Thinking, DevOps, platform research and selection</div>
+          <div class="subsection">Coding Experience</div>
+          <div class="item">GraphQL, JS, Python, PHP, Ruby, Java, C++, Vue, React, Meteor, Ruby on Rails</div>
         </div>
         <div class="section-break"></div>
-        <div class="section">
-          <div class="section-title">
-            Publications
-          </div>
-          <div class="item">New York Times</div>
-          <div class="item">U.S. Builder’s Review, praising the creativity and positive community impact of our real estate development projects.</div>
-          <div class="item">Urban Land Institute</div>
-        </div>
-        <div class="section-break"></div>
-        <div class="section">
-          <div class="section-title">
-            Education
-          </div>
-          <div class="item">University of Texas at Austin</div>
-          <div class="item">B.A., 2002 - 2006</div>
-        </div>
       </div>
       <div class="right-column">
         <div class="section">
           <div class="section-title">Profile</div>
           <div class="profile-text">
-            12 years of product conceptualizing, designing, building/manufacturing, and selling.
-            Managed multi-million dollar departments and all personnel associated.
+            12 years of product conceptualizing, design, building/manufacturing, and selling.
+            Built and managed multi-million dollar departments and all associated personnel.
             8+ years of full-stack software coding experience in a number of platforms and technologies.
-            Deep passion for leadership development and coaching
+            Deep passion for leadership development and coaching.
           </div>
         </div>
         <div class="section-break"></div>
@@ -110,7 +101,7 @@
           <svg height="30pt" width="30pt" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
             <g><g fill="white" transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"><path d="M4871.6,4951.4c-32.6-40.2-852.8-1144.1-1822.5-2453L1282.2,116.4l1816.7-2447.2L4915.7-4780h84.3h84.3L6901-2330.9L8717.8,116.4L6901,2565.5L5084.3,5012.7l-78.6,5.7C4934.8,5024.2,4923.3,5016.5,4871.6,4951.4z M6674.9,2354.7L8334.5,116.4L6674.9-2120.1C5760.8-3352.3,5007.7-4358.4,5000-4358.4s-762.7,1006.1-1674.9,2238.3L1665.5,116.4L3327,2358.5c916,1232.2,1669.2,2240.2,1676.8,2236.4C5009.6,4593,5762.7,3585,6674.9,2354.7z"/></g></g>
           </svg>
-          <svg 
+          <svg
             class="test"
             height="30pt" width="30pt" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
             <g><g fill="white" transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"><path d="M4871.6,4951.4c-32.6-40.2-852.8-1144.1-1822.5-2453L1282.2,116.4l1816.7-2447.2L4915.7-4780h84.3h84.3L6901-2330.9L8717.8,116.4L6901,2565.5L5084.3,5012.7l-78.6,5.7C4934.8,5024.2,4923.3,5016.5,4871.6,4951.4z M6674.9,2354.7L8334.5,116.4L6674.9-2120.1C5760.8-3352.3,5007.7-4358.4,5000-4358.4s-762.7,1006.1-1674.9,2238.3L1665.5,116.4L3327,2358.5c916,1232.2,1669.2,2240.2,1676.8,2236.4C5009.6,4593,5762.7,3585,6674.9,2354.7z"/></g></g>
@@ -124,30 +115,51 @@
         </div>
       </div>
       <div class="left-header">
-        <div>Test</div>
+        <div></div>
       </div>
       <div class="left-column">
-
+        <div class="page2-offset"></div>
+        <div class="section">
+          <div class="section-title">
+            Honors
+          </div>
+          <div class="item">Empact Entrepreneur's "Most Inspiring Entrepreneurship Story" award and invitation to speak at the United Nations venue in New York.</div>
+        </div>
+        <div class="section-break"></div>
+        <div class="section">
+          <div class="section-title">
+            Publications
+          </div>
+          <div class="subsection">New York Times</div>
+          <div class="subsection">U.S. Builder's Review</div>
+          <div class="item">"A pioneer in creative residential real estate development."</div>
+          <div class="subsection">Urban Land Institute</div>
+        </div>
+        <div class="section-break"></div>
+        <div class="section">
+          <div class="section-title">
+            Education
+          </div>
+          <div class="subsection">University of Texas at Austin</div>
+          <div class="item">B.A., 2002 - 2006</div>
+        </div>
       </div>
       <div class="right-column">
         <div class="section">
-          <div class="section-title">Executive Work History</div>
+          <div class="section-title">Management Work History</div>
           <div class="job">
             <div class="job-header">
               <div class="company">787 Developers, &nbsp;</div>
               <div class="position">President &amp; Founder, &nbsp;</div>
               <div class="time">April 2012 – April 2017</div>
             </div>
-            <div class="experience">Managed a team or attorneys, architects, engineers, consultants, banks, investors, and construction professionals to design, engineer, and construct residential development projects as a 30 unit single-family home neighborhood with a $10 million+ budget.</div>
+            <div class="experience">Started as a small construction company doing small remodel projects and grew into one
+              of the largest in-fill single-family home construction companies in the city building as many as 10 homes at a time.
+              </div>
+            <div class="experience">Managed all personnel necessary to design, engineer, and construct residential development projects as large as 30 unit single-family home neighborhoods.</div>
+
+            <div class="experience">Served as a fiduciary and manager of millions of dollars of bank's and investor's dollars.</div>
             <div class="experience">Created a product so highly regarded that we received multiple publications and regularly broke price records in the neighborhoods we sold in.</div>
-          </div>
-          <div class="job">
-            <div class="job-header">
-              <div class="company">Iron Rock Construction, &nbsp;</div>
-              <div class="position">President &amp; Cofounder, &nbsp;</div>
-              <div class="time">May 2011 – April 2016</div>
-            </div>
-            <div class="experience">Built a team of employees, subcontractors, and vendors and the infrastructure necessary to handle constructing as many as 10 custom homes simultaneously.</div>
           </div>
           <div class="job">
             <div class="job-header">
@@ -155,15 +167,11 @@
               <div class="position">President &amp; Cofounder, &nbsp;</div>
               <div class="time">December 2006 – March 2012</div>
             </div>
-            <div class="experience">Built the entire operations system for the management of 200 properties which resulted in a 400% increase in operational efficiency. Enacted new tenant management policies that cut annual evictions by 1/3rd and increased overall rents collected across the entire portfolio.</div>
+            <div class="experience">Built the entire operations, sales, and marketings systems for the management of 200 properties.</div>
+            <div class="experience">Increased operational efficiency by 400% through the use of new sytems and technology.</div>
+            <div class="experience">Enacted new tenant management policies that cut annual evictions by 1/3rd and increased overall rents collected across the entire portfolio.</div>
             <div class="experience">Sold company (was managing $15 Million in real estate assets at the time of sale).</div>
           </div>
-          <div class="section-title">Honors, Awards, &amp; Publications</div>
-          <div class="experience">Publications in the New York Times, U.S. Builder’s Review, and Urban Land Institute praising the creativity and positive community impact of our real estate development projects.</div>
-          <div class="experience">Selected by Empact Entrepreneurs for the "Most Inspiring Entrepreneurship Story" award and invited to speak at the United Nations venue in New York.</div>
-          <div class="section-title">Education &amp; Certifications</div>
-          <div class="experience">University of Texas at Austin - BA, 2002 – 2006, Studied business operations, computer science, trend creation, demographic analysis</div>
-          <div class="experience">Other Coursework: AWS Certified Solutions Architect, Deep Learning</div>
         </div>
       </div>
     </div>
@@ -258,10 +266,14 @@ export default {
         }
         margin-bottom: 10pt;
       }
+      .page2-offset {
+        margin-top: 140pt;
+      }
       .section {
         color: black;
         text-align: center;
         font-size: 8pt;
+        font-weight: 500;
         .section-title {
           font-size: 15pt;
           text-transform: uppercase;
@@ -269,6 +281,12 @@ export default {
         .item {
           margin-top: 8pt;
         }
+      }
+      .subsection {
+        margin-top: 16pt;
+        font-size: 12;
+        text-transform: uppercase;
+        font-weight: 700;
       }
       .section-break {
         border: 0.15vh solid black;
@@ -283,6 +301,7 @@ export default {
       .section {
         .section-title {
           font-size: 20pt;
+          font-weight: 500;
           text-transform: uppercase;
           text-align: center;
           margin-bottom: 15pt;
@@ -297,7 +316,7 @@ export default {
       }
       .job {
         font-size: 10pt;
-        margin-bottom: 15pt;
+        margin-bottom: 20pt;
         .job-header {
           display: flex;
           align-items: center;
@@ -310,7 +329,7 @@ export default {
         .experience {
           margin-left: 15pt;
           font-weight: 300;
-          margin-bottom: 5pt;
+          margin-bottom: 10pt;
         }
       }
     }
