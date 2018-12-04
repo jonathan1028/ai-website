@@ -218,7 +218,7 @@
 export default {
   name: 'Resume',
   created () {
-    alert('This resume is displayed via a dynamic template that I built with HTML and CSS Grid as a small demonstration of my technological acument and ability to design, prototype, and present to a discriminating audience.')
+    alert('This resume is displayed via a dynamic template that I built with HTML and CSS Grid to create an easily printable live document and as a small demonstration of my technological acument and ability to design, prototype, and present to a discriminating audience.')
   }
 }
 </script>
