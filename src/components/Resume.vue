@@ -41,11 +41,11 @@
             Technical Knowledge
           </div>
           <div class="subsection">Organization</div>
-          <div class="item">Road maps, code reviews, best practices, writing style guides, linting, TDD, high-level documentation, technical debt mgmt plans</div>
+          <div class="item">Road Maps, Technical Debt Mgmt Plans, Writing Style Guides, High-Level Documentation, Code Reviews, Best Practices, Linting, TDD  </div>
+          <div class="subsection">Architecture/Design</div>
+          <div class="item">GraphQL APIs, REST APIs, Design Thinking, DevOps, Platform Research &amp; Selection</div>
           <div class="subsection">Product Mgmt Tools</div>
-          <div class="item">Scrum, Agile, Kanban, Gantt charts, critical path analysis, Jira, Confluence, Git, GitHub</div>
-          <div class="subsection">Architecture</div>
-          <div class="item">GraphQL APIs, REST APIs, Design Thinking, DevOps, platform research and selection</div>
+          <div class="item">Scrum, Agile, Kanban, Gantt Charts, Critical Path Analysis, Jira, Confluence, Git, GitHub</div>
           <div class="subsection">Coding Experience</div>
           <div class="item">GraphQL, JS, Python, PHP, Ruby, Java, C++, Vue, React, Meteor, Ruby on Rails</div>
         </div>
@@ -55,9 +55,9 @@
         <div class="section">
           <div class="section-title">Profile</div>
           <div class="profile-text">
-            12 years of product conceptualizing, design, building/manufacturing, and selling.
-            Built and managed multi-million dollar departments and all associated personnel.
-            8+ years of full-stack software coding experience in a number of platforms and technologies.
+            Driven entreneur &amp; technology enthusiast seeking to be groomed for an executive role by a top-tier leadership team. 12 years of product conceptualizing, design, building/manufacturing, and selling.
+            Experience building multi-million dollar departments and all associated personnel.
+            8+ years of software prototyping and coding experience in a number of products, platforms, and technologies.
             Deep passion for leadership development and coaching.
           </div>
         </div>
@@ -72,7 +72,11 @@
             </div>
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Lead the re-architecting and build of a new graphQL API to replace an existing NodeJS API. Lead a major refactoring project to bring about code consistency, implement unit testing, and improve application speed. Put in place code reviews to ensure best practices and solid documentation throughout. Setup git workflow and AWS Code Pipelines for continuous development.</div>
+              <div class="experience">Lead the re-architecting and build of a new graphQL API and front-end structure which reduced the legacy code base by over 80%, improved development speed/cost by 8X, reduced multi-second page load times to zero, improved security, and massively increased scalability. </div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Setup git workflow and AWS Code Pipelines for continuous development.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Researched different types of search APIs/architectures and proposed findings and solution to CEO.</div>
             </div>
           </div>
           <div class="job">
@@ -83,7 +87,7 @@
             </div>
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Built and maintained a cloud-based ERP platform with the Meteor framework for a small manufacturing company that included a CRM, order management, process management, parametric product template modeling, and a Cut-List & Bill of Materials generator.</div>
+              <div class="experience">Pioneered ERP manufacturing software which doubled throughput rate, reduced materials waste by 50%, and created tracking and data analysis for all manufacturing hours. Users could enter custom product dimensions and the product then generated a cut-list, a materials order, and a process list with estimated hours for production.</div>
             </div>
           </div>
           <div class="job">
@@ -94,7 +98,13 @@
             </div>
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Designed and built a SaaS platform for my residential construction company that was used in our day-to-day operations for a few years. Originally built in PHP and later in Ruby on Rails/JavaScript. The application included components such as: customer relationship management, vendor management, estimating, budgeting, project management, a complex job costing system, and bookkeeping.</div>
+              <div class="experience">Researched existing construction software to identify competitors, unmet market needs, and potential feature set.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Selected technology stack, designed UX, managed the build-out of MVP, and corresponded with client to improve UX &amp; drive feature roll-out.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Grew product to include additional components of: customer relationship management, vendor management, estimating, budgeting, project management, a complex job costing system, and bookkeeping.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Conducted market research to determine the viability of turning product into a venture capital backed company.</div>
             </div>
           </div>
         </div>
@@ -191,7 +201,7 @@
               <img class="diamond-small" src="../assets/diamond2.svg">
               <div class="experience">Built the entire operations, sales, and marketings systems for the management of 200 properties.</div>
               <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Increased operational efficiency by 400% through the use of new sytems and technology.</div>
+              <div class="experience">Increased operations efficiency by 400% through the use of new sytems and technology.</div>
               <img class="diamond-small" src="../assets/diamond2.svg">
               <div class="experience">Enacted new tenant management policies that cut annual evictions by 1/3rd and increased overall rents collected across the entire portfolio.</div>
               <img class="diamond-small" src="../assets/diamond2.svg">
