@@ -63,25 +63,28 @@
         </div>
         <div class="section-break"></div>
         <div class="section">
-          <div class="section-title">Technical Work History</div>
+          <div class="section-title">Products Managed</div>
           <div class="job">
             <div class="job-header">
-              <div class="company">Agilent Innovations, &nbsp;</div>
-              <div class="position">Founder &amp; Product Manager, &nbsp;</div>
-              <div class="time">April 2018 - Present</div>
+              <div class="company">Good Citizen Network, &nbsp;</div>
+              <div class="position">Product Manager, &nbsp;</div>
+              <div class="time">June 2018 - November 2018</div>
             </div>
-            <ul>
-              </ul>
-            <div class="experience"><span class="underline">Good Citizen Network: </span>Lead the re-architecting and build of a new graphQL API to replace an existing NodeJS API. Lead a major refactoring project to bring about code consistency, implement unit testing, and improve application speed. Put in place code reviews to ensure best practices and solid documentation throughout. Setup git workflow and AWS Code Pipelines for continuous development.</div>
-            <div class="experience"><span class="underline">DGnet Watchdog: </span> Contracted to build an entirely new front-end SPA and fluid mobile design for an enterprise asset monitoring SaaS.</div>
+            <div class="job-experience">
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Lead the re-architecting and build of a new graphQL API to replace an existing NodeJS API. Lead a major refactoring project to bring about code consistency, implement unit testing, and improve application speed. Put in place code reviews to ensure best practices and solid documentation throughout. Setup git workflow and AWS Code Pipelines for continuous development.</div>
+            </div>
           </div>
           <div class="job">
             <div class="job-header">
-              <div class="company">Elevation Cabinetry, &nbsp;</div>
+              <div class="company">Cloud Cutlist, &nbsp;</div>
               <div class="position">Product Manager, &nbsp;</div>
               <div class="time">August 2015 – November 2017</div>
             </div>
-            <div class="experience">Built and maintained a cloud-based ERP platform with the Meteor framework for a small manufacturing company that included a CRM, order management, process management, parametric product template modeling, and a Cut-List & Bill of Materials generator.</div>
+            <div class="job-experience">
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Built and maintained a cloud-based ERP platform with the Meteor framework for a small manufacturing company that included a CRM, order management, process management, parametric product template modeling, and a Cut-List & Bill of Materials generator.</div>
+            </div>
           </div>
           <div class="job">
             <div class="job-header">
@@ -89,7 +92,10 @@
               <div class="position">Product Manager, &nbsp;</div>
               <div class="time">November 2012 – April 2016</div>
             </div>
-            <div class="experience">Designed and built a SaaS platform for my residential construction company that was used in our day-to-day operations for a few years. Originally built in PHP and later in Ruby on Rails/JavaScript. The application included components such as: customer relationship management, vendor management, estimating, budgeting, project management, a complex job costing system, and bookkeeping.</div>
+            <div class="job-experience">
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Designed and built a SaaS platform for my residential construction company that was used in our day-to-day operations for a few years. Originally built in PHP and later in Ruby on Rails/JavaScript. The application included components such as: customer relationship management, vendor management, estimating, budgeting, project management, a complex job costing system, and bookkeeping.</div>
+            </div>
           </div>
         </div>
       </div>
@@ -153,13 +159,27 @@
               <div class="position">President &amp; Founder, &nbsp;</div>
               <div class="time">April 2012 – April 2017</div>
             </div>
-            <div class="experience">Started as a small construction company doing small remodel projects and grew into one
-              of the largest in-fill single-family home construction companies in the city building as many as 10 homes at a time.
-              </div>
-            <div class="experience">Managed all personnel necessary to design, engineer, and construct residential development projects as large as 30 unit single-family home neighborhoods.</div>
-
-            <div class="experience">Served as a fiduciary and manager of millions of dollars of bank's and investor's dollars.</div>
-            <div class="experience">Created a product so highly regarded that we received multiple publications and regularly broke price records in the neighborhoods we sold in.</div>
+            <div class="job-experience">
+              <!-- <svg src="../assets/diamond2.svg"></svg> -->
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <!-- <svg
+                class="diamond-small"
+                x="0px" y="0px"
+                viewBox="0 0 1000 1000"
+                enable-background="new 0 0 1000 1000"
+                >
+                <g fill="black" transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"><path stroke-width="95%" d="M4871.6,4951.4c-32.6-40.2-852.8-1144.1-1822.5-2453L1282.2,116.4l1816.7-2447.2L4915.7-4780h84.3h84.3L6901-2330.9L8717.8,116.4L6901,2565.5L5084.3,5012.7l-78.6,5.7C4934.8,5024.2,4923.3,5016.5,4871.6,4951.4z M6674.9,2354.7L8334.5,116.4L6674.9-2120.1C5760.8-3352.3,5007.7-4358.4,5000-4358.4s-762.7,1006.1-1674.9,2238.3L1665.5,116.4L3327,2358.5c916,1232.2,1669.2,2240.2,1676.8,2236.4C5009.6,4593,5762.7,3585,6674.9,2354.7z"/></g>
+              </svg> -->
+              <div class="experience">Founded and grew one of the largest in-fill residential home construction companies in Austin.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Oversaw full cycle planning, design, and construction of up to 10 projects simultaneously which varied from single-family homes to 30 unit neighborhoods.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Managed teams of attorneys, designers, engineers, and dozens of subcontractor crews. Owned P&nbsp;L for all projects.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Forged win-win relationships with institutional lenders and private investors to supply capital to development projects. Maintained an average internal rate of return to investors of 20%+.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Created a product so highly regarded that we received multiple national publications and regularly broke area price records in our neighborhoods.</div>
+            </div>
           </div>
           <div class="job">
             <div class="job-header">
@@ -167,10 +187,16 @@
               <div class="position">President &amp; Cofounder, &nbsp;</div>
               <div class="time">December 2006 – March 2012</div>
             </div>
-            <div class="experience">Built the entire operations, sales, and marketings systems for the management of 200 properties.</div>
-            <div class="experience">Increased operational efficiency by 400% through the use of new sytems and technology.</div>
-            <div class="experience">Enacted new tenant management policies that cut annual evictions by 1/3rd and increased overall rents collected across the entire portfolio.</div>
-            <div class="experience">Sold company (was managing $15 Million in real estate assets at the time of sale).</div>
+            <div class="job-experience">
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Built the entire operations, sales, and marketings systems for the management of 200 properties.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Increased operational efficiency by 400% through the use of new sytems and technology.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Enacted new tenant management policies that cut annual evictions by 1/3rd and increased overall rents collected across the entire portfolio.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Sold company (was managing $15 Million in real estate assets at the time of sale).</div>
+            </div>
           </div>
         </div>
       </div>
@@ -326,12 +352,21 @@ export default {
             font-weight: 600;
           }
         }
-        .experience {
-          margin-left: 16pt;
-          font-weight: 300;
-          margin-bottom: 10pt;
-          .underline {
-            text-decoration: underline;
+        .job-experience {
+          margin: 2pt 0pt 0pt 8pt;
+          display: grid;
+          grid-template-columns: auto auto;
+          .icon {
+            font-size: 8pt;
+            margin-top: 2pt;
+          }
+          .experience {
+            margin-left: 4pt;
+            font-weight: 300;
+            margin-bottom: 6pt;
+            .underline {
+              text-decoration: underline;
+            }
           }
         }
       }
@@ -341,6 +376,9 @@ export default {
       margin-left: -30pt;
       // background-color: yellow;
       // color: black;
+    }
+    .diamond-small {
+      margin-top: 2pt;
     }
   }
 }
