@@ -38,32 +38,32 @@
         <div class="section-break"></div>
         <div class="section">
           <div class="section-title">
-            Technical Knowledge
+            Skills
           </div>
-          <div class="subsection">Organization</div>
-          <div class="item">Road Maps, Technical Debt Mgmt Plans, Writing Style Guides, High-Level Documentation, Code Reviews, Best Practices, Linting, TDD  </div>
-          <div class="subsection">Architecture/Design</div>
-          <div class="item">GraphQL APIs, REST APIs, Design Thinking, DevOps, Platform Research &amp; Selection</div>
-          <div class="subsection">Product Mgmt Tools</div>
-          <div class="item">Scrum, Agile, Kanban, Gantt Charts, Critical Path Analysis, Jira, Confluence, Git, GitHub</div>
+          <div class="subsection">Organizational</div>
+          <div class="item">Road Maps, Technical Debt Mgmt Plans, Writing Style Guides, High-Level Documentation, Test Driven Development</div>
+          <div class="subsection">Design</div>
+          <div class="item">Product Vision, Design Thinking, Experience Driven Design, Customer Research, Data Analysis, Wireframing, Prototyping, A/B Testing</div>
+          <div class="subsection">Architecture</div>
+          <div class="item">Technical Research, Stack Selection, GraphQL APIs, REST APIs, DevOps, AWS</div>
+          <div class="subsection">Productivity Tools</div>
+          <div class="item">Agile, Scrum, Kanban, Gantt Charts, Critical Path Analysis, Jira, Confluence, Git, GitHub</div>
           <div class="subsection">Coding Experience</div>
-          <div class="item">GraphQL, JS, Python, PHP, Ruby, Java, C++, Vue, React, Meteor, Ruby on Rails</div>
+          <!-- <div class="item">Numerous Languages, Frameworks, and Databases -->
+          <div class="item">GraphQL, JS, Python, PHP, Ruby, Java, C++, Vue, Node, Meteor, RoR, Mongo, PostGreSQL, MySQL</div>
         </div>
         <div class="section-break"></div>
       </div>
       <div class="right-column">
         <div class="section">
-          <div class="section-title">Profile</div>
+          <div class="section-title">Summary</div>
           <div class="profile-text">
-            Driven entreneur &amp; technology enthusiast seeking to be groomed for an executive role by a top-tier leadership team. 12 years of product conceptualizing, design, building/manufacturing, and selling.
-            Experience building multi-million dollar departments and all associated personnel.
-            8+ years of software prototyping and coding experience in a number of products, platforms, and technologies.
-            Deep passion for leadership development and coaching.
+            Highly skilled in business management at an executive level with 6 years of technical product management and 8 years of software engineering experience. Reduced development costs of last software project by 85% through stack, architectural, and organizational improvements. An eye for design and detail validated by national publications.  A demonstrated ability to create best-in-class products and services in multiple industries. Most of all, I hold a deep passion for coaching and leadership development and have helped some of my employees go off and start companies of their own.
           </div>
         </div>
         <div class="section-break"></div>
         <div class="section">
-          <div class="section-title">Products Managed</div>
+          <div class="section-title">Product Management</div>
           <div class="job">
             <div class="job-header">
               <div class="company">Good Citizen Network, &nbsp;</div>
@@ -73,17 +73,17 @@
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
               <div class="experience">Lead the re-architecting and build of a new graphQL API and front-end structure which reduced the legacy code base by over 80%, improved development speed/cost by 8X, reduced multi-second page load times to zero, improved security, and massively increased scalability. </div>
-              <img class="diamond-small" src="../assets/diamond2.svg">
+              <!-- <img class="diamond-small" src="../assets/diamond2.svg">
               <div class="experience">Setup git workflow and AWS Code Pipelines for continuous development.</div>
               <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Researched different types of search APIs/architectures and proposed findings and solution to CEO.</div>
+              <div class="experience">Researched scalable search APIs/architectures and proposed findings and solution to CEO.</div> -->
             </div>
           </div>
           <div class="job">
             <div class="job-header">
               <div class="company">Cloud Cutlist, &nbsp;</div>
               <div class="position">Product Manager, &nbsp;</div>
-              <div class="time">August 2015 – November 2017</div>
+              <div class="time">August 2016 – November 2017</div>
             </div>
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
@@ -107,6 +107,19 @@
               <div class="experience">Conducted market research to determine the viability of turning product into a venture capital backed company.</div>
             </div>
           </div>
+          <!-- <div class="job">
+            <div class="job-header">
+              <div class="company">Elevation Cabinetry, &nbsp;</div>
+              <div class="position">Product Manager, &nbsp;</div>
+              <div class="time">August 2015 – November 2017</div>
+            </div>
+            <div class="job-experience">
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Designed, protytped, experimented, and conducted tests for a modularized custom cabinet product.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Set-up all manufacturing processes to bring the product to life and maintained a continuous improvement manufacturing and product development life cycle.</div>
+            </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -146,10 +159,10 @@
           <div class="section-title">
             Publications
           </div>
-          <div class="subsection">New York Times</div>
           <div class="subsection">U.S. Builder's Review</div>
           <div class="item">"A pioneer in creative residential real estate development."</div>
           <div class="subsection">Urban Land Institute</div>
+          <div class="item">Showcases our SOL Neighborhood as a model of creative mixed-income housing projects.</div>
         </div>
         <div class="section-break"></div>
         <div class="section">
@@ -158,16 +171,21 @@
           </div>
           <div class="subsection">University of Texas at Austin</div>
           <div class="item">B.A., 2002 - 2006</div>
+          <div class="subsection">Amazon Web Services</div>
+          <div class="item">Certified Solutions Architect (Completed Coursework)</div>
+          <div class="subsection">Udacity</div>
+          <div class="item">Deep Learning - NanoDegree (In Progress)</div>
         </div>
+        <div class="section-break"></div>
       </div>
       <div class="right-column">
         <div class="section">
-          <div class="section-title">Management Work History</div>
+          <div class="section-title">Business Management</div>
           <div class="job">
             <div class="job-header">
               <div class="company">787 Developers, &nbsp;</div>
               <div class="position">President &amp; Founder, &nbsp;</div>
-              <div class="time">April 2012 – April 2017</div>
+              <div class="time">April 2012 – June 2018</div>
             </div>
             <div class="job-experience">
               <!-- <svg src="../assets/diamond2.svg"></svg> -->
@@ -184,7 +202,7 @@
               <img class="diamond-small" src="../assets/diamond2.svg">
               <div class="experience">Oversaw full cycle planning, design, and construction of up to 10 projects simultaneously which varied from single-family homes to 30 unit neighborhoods.</div>
               <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Managed teams of attorneys, designers, engineers, and dozens of subcontractor crews. Owned P&nbsp;L for all projects.</div>
+              <div class="experience">Managed teams of attorneys, designers, engineers, and dozens of subcontractor crews. Owned P&amp;L for all projects.</div>
               <img class="diamond-small" src="../assets/diamond2.svg">
               <div class="experience">Forged win-win relationships with institutional lenders and private investors to supply capital to development projects. Maintained an average internal rate of return to investors of 20%+.</div>
               <img class="diamond-small" src="../assets/diamond2.svg">
@@ -205,8 +223,11 @@
               <img class="diamond-small" src="../assets/diamond2.svg">
               <div class="experience">Enacted new tenant management policies that cut annual evictions by 1/3rd and increased overall rents collected across the entire portfolio.</div>
               <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Sold company (was managing $15 Million in real estate assets at the time of sale).</div>
+              <div class="experience">Prepared the company for acquisition and sold it in 2012 (was managing $15 Million in real estate assets at the time of sale).</div>
             </div>
+          </div>
+          <div class="footer">
+            *This resume was built with HTML and CSS Grid to create an easily reformatable and printable living document, control the details down to the pixel level, and as a small demonstration of my technological acumen and ability to design, build, and present to a discriminating audience.
           </div>
         </div>
       </div>
@@ -218,7 +239,7 @@
 export default {
   name: 'Resume',
   created () {
-    alert('This resume is displayed via a dynamic template that I built with HTML and CSS Grid to create an easily printable live document and as a small demonstration of my technological acument and ability to design, prototype, and present to a discriminating audience.')
+    // alert('This resueate an easilogical acudiscriminating audience.')
   }
 }
 </script>
@@ -306,7 +327,7 @@ export default {
         margin-bottom: 10pt;
       }
       .page2-offset {
-        margin-top: 140pt;
+        margin-top: 175pt;
       }
       .section {
         color: black;
@@ -336,7 +357,7 @@ export default {
       grid-area: right-column;
       background-color: white;
       color: black;
-      padding: 25pt 25pt;
+      padding: 20pt 25pt;
       .section {
         .section-title {
           font-size: 20pt;
@@ -350,8 +371,8 @@ export default {
         }
       }
       .section-break {
-        border: 0.15vh solid black;
-        margin: 20pt 0pt;
+        // border: 0.15vh solid black;
+        margin: 15pt 0pt;
       }
       .job {
         font-size: 10pt;
@@ -392,6 +413,11 @@ export default {
     }
     .diamond-small {
       margin-top: 2pt;
+    }
+    .footer {
+      background-color: white;
+      margin-top: 140pt;
+      font-size: 8pt;
     }
   }
 }
