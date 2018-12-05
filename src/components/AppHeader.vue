@@ -8,6 +8,8 @@
       <router-link to="/projects">Projects</router-link>
       <div class="sizing">|</div>
       <router-link to="/learn">Learn</router-link>
+      <div class="sizing">|</div>
+      <router-link to="/resume">Resume</router-link>
     </div>
   </div>
 </template>

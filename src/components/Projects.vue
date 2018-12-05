@@ -13,21 +13,30 @@
         <!-- </div> -->
         <h3>Built With: Vue, Node, CSS Grid</h3>
         <button>
-          <a href='https://www.goodcitizen.network/#/'>View Production Site</a>
+          <a href='https://www.goodcitizen.network/#/'>Old Version</a>
+        </button>
+        <button>
+          <a href='http://gcn.agilentinnovations.com'>New Version Prototype</a>
         </button>
       </div>
       <div class="project-box flipInX">
-        <h2>Agilent - Customer Relationship Manager</h2>
-        <!-- <div class="content"> -->
-          <a href='http://crm.agilentinnovations.com'>
-            <img src="../assets/CRM.png" href='http://crm.agilentinnovations.com'>
-          </a>
-          <p>A modern Customer Relationship Manager project in progress that is built as a Single Page Application (no page refreshes) with lightning fast search and sort technology and statically generated.</p>
-        <!-- </div> -->
-        <h3>Built With: Vue, GraphQL, GraphCool, Apollo, and a Static Site Generator</h3>
-        <button>
-          <a href='http://crm.agilentinnovations.com'>View Demo</a>
-        </button>
+        <h2>Cloud Cutlist - Manufacturing ERP</h2>
+        <img src="../assets/rails.png">
+        <p>An ERP web application for small-scale manufacturing companies to allow for a stream-lined ordering and manufacturing process.
+          The application included the following modules:
+          customer relationship manager, order management, process management, parametric product template modeling, and a Cut-List & Bill of Materials generator.
+        </p>
+        <h3>Built With: Meteor, MongoDB</h3>
+        <button>Link coming soon</button>
+      </div>
+      <div class="project-box flipInX">
+        <h2>Construction Central - Construction ERP</h2>
+        <img src="../assets/meteor.jpeg">
+        <p>A construction management web application for custom home builders with the following modules:
+          customer relationship management, vendor management, estimating, budgeting, project management, job costing, and bookkeeping.
+        </p>
+        <h3>Built With: Meteor, MongoDB</h3>
+        <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
         <h2>DGnet Watchdog - Asset Monitoring</h2>
@@ -55,6 +64,20 @@
         <button>Link coming soon</button>
       </div>
       <div class="project-box flipInX">
+        <h2>Agilent - Customer Relationship Manager</h2>
+        <!-- <div class="content"> -->
+          <a href='http://crm.agilentinnovations.com'>
+            <img src="../assets/CRM.png" href='http://crm.agilentinnovations.com'>
+          </a>
+          <p>A modern Customer Relationship Manager project in progress that is built as a Single Page Application (no page refreshes) with lightning fast search and sort technology and statically generated.</p>
+        <!-- </div> -->
+        <h3>Built With: Vue, GraphQL, GraphCool, Apollo, and a Static Site Generator</h3>
+        <button>Link coming soon</button>
+        <!-- <button>
+          <a href='http://crm.agilentinnovations.com'>View Demo</a>
+        </button> -->
+      </div>
+      <div class="project-box flipInX">
         <h2>Penny Pincher - Personal Finance</h2>
         <img src="../assets/logo.png">
         <p>A Mint-like personal budgeting web application with an editable table of expenses that performs real-time
@@ -68,25 +91,6 @@
         <p>A custom built admin panel to allow for the management of users and SaaS type applications.
         </p>
         <h3>Built With: Vue, GraphQL, GraphCool, and a Static Site Generator</h3>
-        <button>Link coming soon</button>
-      </div>
-      <div class="project-box flipInX">
-        <h2>Construction Central - Construction ERP</h2>
-        <img src="../assets/meteor.jpeg">
-        <p>A construction management web application for custom home builders with the following modules:
-          customer relationship management, vendor management, estimating, budgeting, project management, job costing, and bookkeeping.
-        </p>
-        <h3>Built With: Meteor, MongoDB</h3>
-        <button>Link coming soon</button>
-      </div>
-      <div class="project-box flipInX">
-        <h2>Cloud Cutlist - Manufacturing ERP</h2>
-        <img src="../assets/rails.png">
-        <p>An ERP web application for small-scale manufacturing companies to allow for a stream-lined ordering and manufacturing process.
-          The application included the following modules:
-          customer relationship manager, order management, process management, parametric product template modeling, and a Cut-List & Bill of Materials generator.
-        </p>
-        <h3>Built With: Meteor, MongoDB</h3>
         <button>Link coming soon</button>
       </div>
       <!-- <div class="project-box">
