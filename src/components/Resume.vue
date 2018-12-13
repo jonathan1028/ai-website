@@ -16,7 +16,7 @@
           Jonathan Lee
         </div>
         <div class="main-position">
-          Product Manager
+          Technical Product Manager
         </div>
       </div>
       <div class="left-header">
@@ -140,7 +140,7 @@
           Jonathan Lee
         </div>
         <div class="main-position">
-          Product Manager
+          Technical Product Manager
         </div>
       </div>
       <div class="left-header">
