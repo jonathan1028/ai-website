@@ -58,12 +58,12 @@
         <div class="section">
           <div class="section-title">Summary</div>
           <div class="profile-text">
-            Highly skilled in business management at an executive level with 6 years of technical product management and 8 years of software engineering experience. Reduced development costs of last software project by 85% through stack, architectural, and organizational improvements. An eye for design and detail validated by national publications.  A demonstrated ability to create best-in-class products and services in multiple industries. Most of all, I hold a deep passion for coaching and leadership development and have helped some of my employees go off and start companies of their own.
+            Highly skilled in business management at an executive level with 6 years of technical product management and 8 years of software engineering experience. Reduced development costs of last software project by 85% through stack, architectural, and organizational improvements. An eye for design and detail validated by national publications.  A demonstrated ability to create best-in-class products and services in multiple industries. Focused on becoming a subject matter expert and working with products centered in the Artificial Intelligence and Machine Learning sphere.
           </div>
         </div>
         <div class="section-break"></div>
         <div class="section">
-          <div class="section-title">Product Management</div>
+          <div class="section-title">Technical Management</div>
           <div class="job">
             <div class="job-header">
               <div class="company">Good Citizen Network, &nbsp;</div>
@@ -169,12 +169,12 @@
           <div class="section-title">
             Education
           </div>
-          <div class="subsection">University of Texas at Austin</div>
-          <div class="item">B.A., 2002 - 2006</div>
-          <div class="subsection">Amazon Web Services</div>
-          <div class="item">Certified Solutions Architect (Completed Coursework)</div>
           <div class="subsection">Udacity</div>
           <div class="item">Deep Learning - NanoDegree (In Progress)</div>
+          <div class="subsection">Amazon Web Services</div>
+          <div class="item">Certified Solutions Architect (Completed Coursework)</div>
+          <div class="subsection">University of Texas at Austin</div>
+          <div class="item">B.A., 2002 - 2006</div>
         </div>
         <div class="section-break"></div>
       </div>
