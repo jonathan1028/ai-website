@@ -1,0 +1,43 @@
+Highly skilled investment manager with 7 years of in-house technical product management experience and 9 years of software development experience. 5+ years of experience trading stocks, options, futures, and currencies. Currently building live algorithmic trading models in the forex market and growing my data analysis and machine learning skills.
+
+
+
+
+
+
+
+
+
+- dev tools like git
+- Comfort with cloud computing services like AWS and Google cloud
+- Python 
+- Data structures & algorithms
+
+Highly Desired
+- Machine learning technologies
+- NumPy, SciPy, Scikit-learn packages
+
+Plus
+- Passion for world financial markets
+- Experience in real-world application research project or entrepreurial project
+- Big-data ETL pipeline design Experience
+- Familiarity with MatLab, Java, C++
+- Experience interacting and deploying sql or nosql databases
+
+- Design
+- Architecture
+
+Financial Analysis
+- regression analysis, time series modeling, risk modeling using Fama French & Principle Component Analysis, building complex multi-factor alpha models, combining risk and alpha models together using different portfolio optimization techniques and regularization techniques. 
+
+Data Analysis
+- Learned how to build data pipelines, data normalization techniques and tests, 
+
+Libraries 
+- Built all models and analyzed data using Python, Jupyter, Pandas, NumPy, SciPy, Zipline, Plotly
+
+Development tools
+
+Coding
+
+

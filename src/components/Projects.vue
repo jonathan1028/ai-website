@@ -21,7 +21,7 @@
       </div>
       <div class="project-box flipInX">
         <h2>Cloud Cutlist - Manufacturing ERP</h2>
-        <img src="../assets/rails.png">
+        <img src="../assets/meteor.jpeg">
         <p>An ERP web application for small-scale manufacturing companies to allow for a stream-lined ordering and manufacturing process.
           The application included the following modules:
           customer relationship manager, order management, process management, parametric product template modeling, and a Cut-List & Bill of Materials generator.
