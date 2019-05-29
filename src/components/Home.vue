@@ -21,9 +21,10 @@
       <h1 class="hidden" v-infocus="'slideInLeft'">Our Focus</h1>
       <ul class="hidden" v-infocus="'slideInLeft'">
         <!-- <li>Basic Websites</li> -->
+        <li>Machine Learning Applications</li>
+        <li>Data Analysis & Visualizations</li>
         <li>Complex Web Applications</li>
         <li>MVPs</li>
-        <li>Data Visualizations</li>
         <!-- <li>Artificial Intelligence</li> -->
       </ul>
       <!-- <h2>Basic Websites, Complex Web applications, Artificial Intelligence </h2> -->
@@ -36,12 +37,15 @@
     <div class="panel5 gradient">
       <h1 class="hidden" v-infocus="'slideInRight'">Core Technologies</h1>
       <ul class="hidden" v-infocus="'slideInRight'">
-        <li>Vue.js</li>
+        <li>Python</li>
+        <li>Jupyter Notebooks</li>
+        <li>Machine Learning Libraries</li>
+        <li>Data Visualization Libraries</li>
+        <li>Vue</li>
         <li>GraphQL</li>
         <li>Apollo</li>
-        <li>Prisma/GraphCool</li>
+        <li>Prisma</li>
         <li>Static Site Generators</li>
-        <li>Worldwide Content Delivery Network</li>
       </ul>
       <!-- <h2>Pull examples from Netlify, Vue, GraphQL, Apollo, etc </h2> -->
     </div>
@@ -86,9 +90,16 @@ export default {
   h1 {
     padding-bottom: 2vh;
   }
-  .panel1, .panel2, .panel3, .panel4, .panel5 {
-    @include shadow2;
-    @include inset-shadow3;
+  .panel1, .panel3, .panel5 {
+    //@include shadow2;
+    //@include inset-shadow3;
+    height: auto;
+    padding: .5vh 5vh;
+    border-bottom: .15vh solid #BFBFBF;
+  }
+  .panel2, .panel4 {
+    // @include shadow2;
+    // @include inset-shadow3;
     height: auto;
     padding: .5vh 5vh;
     border-bottom: .15vh solid #BFBFBF;

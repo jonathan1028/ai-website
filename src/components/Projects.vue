@@ -1,97 +1,187 @@
 <template>
   <div class="container gradient">
     <div class="main-box">
-      <h1 class="header">Projects</h1>
+      <h1 class="header">Machine Learning Projects</h1>
       <div class="project-box flipInX">
-        <h2>GCN - Social Networking Platform</h2>
+        <div class="title">Sentiment Analysis w NLP & RNN</div>
         <!-- <div class="content"> -->
-          <a href='https://www.goodcitizen.network/#/'>
-            <img src="../assets/gcn.png" href='https://www.goodcitizen.network/#/'>
-          </a>
-          <p>The LinkedIn for volunteering. A social network site where non-profit organizations can post all of their volunteering and donation opportunities and where users can
-            interact, commit, and organize around them. It includes messaging, gamification, in-app donations, and more.</p>
+          <div class="visual">
+            Visual coming soon . . .
+              <!-- <img src="../assets/chart5.png"> -->
+              <!-- <img src="../assets/chart6.png"> -->
+          </div>
+          <div class="description">Built a natrual language processing tool that scrapes different financial websites, stores the data, and then uses a recurrant neural
+            network to conduct sentiment analysis and make predictions about future data.
+          </div>
+        <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, PyTorch, Plotly, Beautiful Soup</div>
+      </div>
+      <h1 class="header">Quantitative Financial Analysis Projects</h1>
+      <div class="project-box flipInX">
+        <div class="title">Smart Beta Portfolio Building</div>
+        <!-- <div class="content"> -->
+          <div class="visual">
+              <!-- <img src="../assets/chart5.png"> -->
+              <img src="../assets/chart6.png">
+          </div>
+          <div class="description">Built a custom smart beta ETF that tracks an external benchmark. Calculated its tracking error and used that
+            along with a covariance matrix within a convex equation to determine optimal reweighting of portfolio for least amount of tracking error possible.
+          </div>
+        <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, CvxPy, SciPy, Plotly</div>
+      </div>
+      <div class="project-box flipInX">
+        <div class="title">Distribution Analysis & Normalization Tool</div>
+        <!-- <div class="content"> -->
+          <div class="visual">
+              <img src="../assets/chart4.png">
+          </div>
+          <div class="description">This tool visualizes the returns generated across an entire portfolio on all its various assets and compares them with a standard normal distribution overlay.
+            Then applies a Kolmogorov-Smirnoff Test to identify outliers so that the algorithm can be adjusted to either take
+            further advantage of the outliers or filter them out altogether.
+          </div>
+        <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, SciPy, Plotly</div>
+      </div>
+      <div class="project-box flipInX">
+        <div class="title">Signal Entry Display Tool</div>
+        <!-- <div class="content"> -->
+          <div class="visual">
+              <img src="../assets/chart3.png">
+          </div>
+          <div class="description">Visualization tool for analyzing a trading signal's expected entry points.
+          </div>
+        <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, SciPy, Plotly</div>
+      </div>
+      <div class="project-box flipInX">
+        <div class="title">Breakout Visualization Tool</div>
+        <!-- <div class="content"> -->
+          <div class="visual">
+              <img src="../assets/chart2.png">
+          </div>
+          <div class="description">This tool allows for the visualization of breakouts based user defined criteria and signal inputs.
+          </div>
+        <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, SciPy, Plotly</div>
+      </div>
+      <div class="project-box flipInX">
+        <div class="title">Statistical Significance Evaluation Tool</div>
+        <!-- <div class="content"> -->
+          <div class="visual">
+              <img src="../assets/chart1.png">
+          </div>
+          <div class="description">Built a statistical significance testing tool for trading strategies. This tool divides the trading system's return data into quantiles for deeper analysis,
+            and uses SciPy to conduct different hypothesis tests to evaluate if the signal is obtaining its results from randomness or real alpha.
+          </div>
+        <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, SciPy, Plotly</div>
+      </div>
+      <h1 class="header">Web Application Projects</h1>
+      <div class="project-box flipInX">
+        <div class="title">GCN - Social Networking Platform</div>
+        <!-- <div class="content"> -->
+          <div class="visual">
+              <img src="../assets/gcn.png" href='https://www.goodcitizen.network/#/'>
+          </div>
+          <div class="description">The LinkedIn for volunteering. A social network site where non-profit organizations can post all of their volunteering and donation opportunities and where users can
+            interact, commit, and organize around them. It includes messaging, gamification, in-app donations, and more.
+          </div>
         <!-- </div> -->
-        <h3>Built With: Vue, Node, CSS Grid</h3>
-        <button>
-          <a href='https://www.goodcitizen.network/#/'>Old Version</a>
-        </button>
-        <button>
+        <div class="technology">Built With: Vue, CSS Grid, Node, MongoDB, AWS</div>
+        <div class="button-row">
+          <button>
+            <a href='https://www.goodcitizen.network/#/'>View Production Site</a>
+          </button>
+        </div>
+        <!-- <button>
           <a href='http://gcn.agilentinnovations.com'>New Version Prototype</a>
-        </button>
+        </button> -->
       </div>
       <div class="project-box flipInX">
-        <h2>Cloud Cutlist - Manufacturing ERP</h2>
-        <img src="../assets/meteor.jpeg">
-        <p>An ERP web application for small-scale manufacturing companies to allow for a stream-lined ordering and manufacturing process.
-          The application included the following modules:
-          customer relationship manager, order management, process management, parametric product template modeling, and a Cut-List & Bill of Materials generator.
-        </p>
-        <h3>Built With: Meteor, MongoDB</h3>
-        <button>Link coming soon</button>
+        <div class="title">DGnet Watchdog - Asset Monitoring Platform</div>
+        <!-- <div class="content"> -->
+          <div class="visual">
+              <img src="../assets/DGN.png" ref='https://watchdog.dgnet.cloud/'>
+          </div>
+          <div class="description">An enterprise web application used by customers such as GE for asset monitoring. Hired originally to build data visualizations for their front-end displays.
+            Was then hired to rebuild the entire front-end system in the Vue framework and then to create a mobile friendly web version of the application.
+          </div>
+        <!-- </div> -->
+        <div class="technology">Built With: Vue, Vuex, Firebase, D3, CSS Grid</div>
+        <div class="button-row">
+          <button>
+            <a href=https://watchdog.dgnet.cloud/>View Production Site</a>
+          </button>
+        </div>
       </div>
       <div class="project-box flipInX">
-        <h2>Construction Central - Construction ERP</h2>
-        <img src="../assets/meteor.jpeg">
-        <p>A construction management web application for custom home builders with the following modules:
+        <div class="title">Cloud Cutlist - Manufacturing ERP</div>
+        <div class="visual">
+          <img src="../assets/meteor.jpeg">
+        </div>
+        <div class="description">An ERP web application for small-scale manufacturing companies to allow for a stream-lined ordering and manufacturing process.
+          The application includes modules for:
+          customer relationship manager, order management, process management, parametric product template modeling, and a cut-list & bill of materials generator.
+        </div>
+        <div class="technology">Built With: Meteor, MongoDB</div>
+        <!-- <button>Link Coming Soon</button> -->
+      </div>
+      <div class="project-box flipInX">
+        <div class="title">Construction Central - Construction ERP</div>
+        <div class="visual">
+          <img src="../assets/meteor.jpeg">
+        </div>
+        <div class="description">A construction management web application for custom home builders with modules for:
           customer relationship management, vendor management, estimating, budgeting, project management, job costing, and bookkeeping.
-        </p>
-        <h3>Built With: Meteor, MongoDB</h3>
-        <button>Link coming soon</button>
+        </div>
+        <div class="technology">Built With: Meteor, MongoDB</div>
+        <!-- <button>Link Coming Soon</button> -->
       </div>
       <div class="project-box flipInX">
-        <h2>DGnet Watchdog - Asset Monitoring</h2>
+        <div class="title">Value Request - Real Estate Appraisal</div>
         <!-- <div class="content"> -->
-          <a href='https://watchdog.dgnet.cloud/'>
-            <img src="../assets/DGN.png" ref='https://watchdog.dgnet.cloud/'>
-          </a>
-          <p>An enterprise web application used by customers such as GE for asset monitoring. Hired originally to build data visualizations for their front-end displays.
-            Was then hired to rebuild the entire front-end system in the Vue framework and then to create a mobile friendly web version of the application.</p>
-        <!-- </div> -->
-        <h3>Built With: Vue, Vuex, Firebase, D3, CSS Grid</h3>
-        <button>
-          <a href=https://watchdog.dgnet.cloud/>View Production Site</a>
-        </button>
-      </div>
-      <div class="project-box flipInX">
-        <h2>Value Request - Real Estate Appraisal</h2>
-        <!-- <div class="content"> -->
-        <img src="../assets/Value Request.png">
-        <p>Assisted with the front-end development of a commercial appraisal application that allows users to
+        <div class="visual">
+          <img src="../assets/Value Request.png">
+        </div>
+        <div class="description">Front-end development of a commercial appraisal application that allows users to
           upload and modify CSV files in browser, conduct regression analysis and view charted results, and then pull selected regressions into an adjustment grid.
-          The adjustment grid is an editable table with reactive calculations used to assess the value of a subject property.</p>
+          The adjustment grid is an editable table with reactive calculations used to assess the value of a subject property.
+        </div>
         <!-- </div> -->
-        <h3>Built With: Vue, Vuex, Auth0, Chart.js</h3>
-        <button>Link coming soon</button>
+        <div class="technology">Built With: Vue, Vuex, Auth0, Chart.js</div>
+        <!-- <button>Link Coming Soon</button> -->
       </div>
       <div class="project-box flipInX">
-        <h2>Agilent - Customer Relationship Manager</h2>
+        <div class="title">Agilent - Customer Relationship Manager</div>
         <!-- <div class="content"> -->
-          <a href='http://crm.agilentinnovations.com'>
-            <img src="../assets/CRM.png" href='http://crm.agilentinnovations.com'>
-          </a>
-          <p>A modern Customer Relationship Manager project in progress that is built as a Single Page Application (no page refreshes) with lightning fast search and sort technology and statically generated.</p>
+          <div class="visual">
+              <img src="../assets/CRM.png" href='http://crm.agilentinnovations.com'>
+          </div>
+          <div class="description">
+            A modern Customer Relationship Manager project in progress that is built as a Single Page Application (no page refreshes) with lightning fast search and sort technology and statically generated.
+          </div>
         <!-- </div> -->
-        <h3>Built With: Vue, GraphQL, GraphCool, Apollo, and a Static Site Generator</h3>
-        <button>Link coming soon</button>
+          <div class="technology">Built With: Vue, GraphQL, GraphCool, Apollo, and a Static Site Generator</div>
+        <!-- <button>Link Coming Soon</button> -->
         <!-- <button>
           <a href='http://crm.agilentinnovations.com'>View Demo</a>
         </button> -->
       </div>
       <div class="project-box flipInX">
-        <h2>Penny Pincher - Personal Finance</h2>
-        <img src="../assets/logo.png">
-        <p>A Mint-like personal budgeting web application with an editable table of expenses that performs real-time
-          reactive calculations and displays.</p>
-        <h3>Built With: Vue, Vuex, Auth0, GraphQL, GraphCool, and a Static Site Generator</h3>
-        <button>Link coming soon</button>
+        <div class="title">Penny Pincher - Personal Finance</div>
+        <div class="visual">
+          <img src="../assets/logo.png">
+        </div>
+        <div class="description">A Mint-like personal budgeting web application with an editable table of expenses that performs real-time
+          reactive calculations and displays.
+        </div>
+        <div class="technology">Built With: Vue, Auth0, GraphQL, GraphCool, and a Static Site Generator</div>
+        <!-- <button>Link Coming Soon</button> -->
       </div>
       <div class="project-box flipInX">
-        <h2>Agilent - Admin Panel</h2>
-        <img src="../assets/logo.png">
-        <p>A custom built admin panel to allow for the management of users and SaaS type applications.
-        </p>
-        <h3>Built With: Vue, GraphQL, GraphCool, and a Static Site Generator</h3>
-        <button>Link coming soon</button>
+        <div class="title">Agilent - Admin Panel</div>
+        <div class="visual">
+          <img src="../assets/logo.png">
+        </div>
+        <div class="description">A custom built admin panel to allow for the management of users and SaaS type applications.
+        </div>
+        <div class="technology">Built With: Vue, GraphQL, GraphCool, and a Static Site Generator</div>
+        <!-- <button>Link Coming Soon</button> -->
       </div>
       <!-- <div class="project-box">
         <h1>Upcoming Projects</h1>
@@ -136,59 +226,70 @@ export default {
 }
 .project-box {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
   grid-template-rows: 7vh 32vh auto 10vh 10vh;
+  grid-template-areas:
+  "title"
+  "visual"
+  "description"
+  "technology"
+  "button-row";
   @include shadow2;
   opacity: 1;
   background-color:  rgba(255, 255, 255, 1);
   margin-bottom: 1vh;
   padding: 3vh 3vw;
-  h2 {
-    // border: 1px solid red;
-    grid-column: 1 / 3;
+  .title {
+    //border: 1px solid red;
+    grid-area: title;
     padding-bottom: 2vh;
-    height: 3vh;
+    font-size: 1.5vw;
   }
-  h3 {
-    // border: 1px solid red;
-    grid-column: 1 / 3;
-    margin-top: 3vh;
-  }
-  img {
-    grid-column: 1 / 3;
-    height: 30vh;
-    max-width: 30vw;
-    //padding-bottom: 2vh;
-    //width: 30vh;
-  }
-  p {
-    // border: 1px solid red;
-    grid-column: 1 / 3;
-    font-size: 2vh;
-    color: rgba(0,0,0,0.75);
-    top: 0;
-  }
-  button {
-    @include shadow4;
-    // @include inset-shadow3;
-    margin-top: 1vh;
-    // background-color: white;
-    background-color: var(--color2);
-    color: white;
-    border: none;
-    border-radius: 1vh;
-    a {
-      color: white;
+  .visual {
+    //border: 1px solid red;
+    grid-area: visual;
+    justify-self: center;
+    img {
+      height: 30vh;
+      max-width: 30vw;
+      //margin: auto;
+      //padding-bottom: 2vh;
+      //width: 30vh;
     }
   }
-  button:hover {
-    @include shadow3;
+  .description {
+    //border: 1px solid red;
+    grid-area: description;
+    font-size: 2vh;
+    color: rgba(0,0,0,0.75);
+    //top: 0;
   }
-  .content {
-    // grid-column: 1 / 3;
-    // display: flex;
-    // // flex-wrap: wrap;
-    // align-items: flex-start;
+  .technology {
+    //border: 1px solid red;
+    grid-area: technology;
+    align-self: end;
+  }
+  .button-row {
+    //border: 1px solid red;
+    grid-area: button-row;
+    align-self: end;
+    button {
+      @include shadow4;
+      // @include inset-shadow3;
+      margin-top: 1vh;
+      // background-color: white;
+      //height: 10vh;
+      background-color: var(--color2);
+      color: white;
+      border: none;
+      border-radius: 1vh;
+      a {
+        color: white;
+      }
+    }
+    button:hover {
+      @include shadow3;
+    }
   }
 }
 .project-box:hover{
