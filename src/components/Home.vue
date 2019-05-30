@@ -40,7 +40,11 @@
         <li class="hidden" v-infocus="'slideInRight'">Python</li>
         <li class="hidden" v-infocus="'slideInRight'">Jupyter Notebooks</li>
         <li class="hidden" v-infocus="'slideInRight'">Machine Learning Libraries</li>
+        <li class="hidden" v-infocus="'slideInRight'">Pandas, NumPy, SciPy, PyTorch</li>
         <li class="hidden" v-infocus="'slideInRight'">Data Visualization Libraries</li>
+        <li class="hidden" v-infocus="'slideInRight'">Amazon Web Services (AWS)</li>
+        <br>
+        <li class="hidden" v-infocus="'slideInRight'">JavaScript, HTML, CSS</li>
         <li class="hidden" v-infocus="'slideInRight'">Vue</li>
         <li class="hidden" v-infocus="'slideInRight'">GraphQL</li>
         <li class="hidden" v-infocus="'slideInRight'">Apollo</li>
