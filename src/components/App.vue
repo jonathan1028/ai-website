@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app">
     <router-view></router-view>
   </div>
 </template>
@@ -59,26 +59,27 @@ a {
 /* ---------------------------------  Application Layout ------------------------ */
 .app {
   height: 100vh; /* Extends page to bottom of view port even if page content is not long enough */
-  display: grid;
-  grid: 8vh auto 10vh / 1fr;
+  width: 100vw;
+  //display: grid;
+  //grid: 8vh auto 10vh / 1fr;
 }
-.app-header {
-  grid-column:  1 / -1; /* -1 causes header to expand to the end of grid regardless of number of columns*/
-  position: sticky; /* For fixed header */
-  top: 0; /* For fixed header */
-  border: .15vh solid #BFBFBF;
-  background-color: white;
-  // @include shadow2;
-  @include inset-shadow4;
-}
-.main-content {
-  grid-column-start:  1;
-  grid-column-end:  -1;
-}
-.footer {
-  grid-column:  1 / -1; /* -1 causes header to expand to the end of grid regardless of number of columns*/
-  background-color: rgb(52,62,71);
-}
+// .app-header {
+//   grid-column:  1 / -1; /* -1 causes header to expand to the end of grid regardless of number of columns*/
+//   position: sticky; /* For fixed header */
+//   top: 0; /* For fixed header */
+//   border: .15vh solid #BFBFBF;
+//   background-color: white;
+//   // @include shadow2;
+//   @include inset-shadow4;
+// }
+// .main-content {
+//   grid-column-start:  1;
+//   grid-column-end:  -1;
+// }
+// .footer {
+//   grid-column:  1 / -1; /* -1 causes header to expand to the end of grid regardless of number of columns*/
+//   background-color: rgb(52,62,71);
+// }
 /* ---------------------------------------- Application Component Styling ---------------------------- */
 .page {
   height: calc(.98 * var(--page-height));
