@@ -1,8 +1,23 @@
 <template>
-  <div class="container gradient">
-    <div class="main-box">
+  <div class="gradient">
+    <div class="page-layout">
       <h1 class="header">Machine Learning Projects</h1>
-      <div class="project-box flipInX">
+      <!-- <div class="project-box">
+        <div class="title">Smart Beta Portfolio Building</div>
+        <div class="visual">
+          <img src="../assets/chart6.png">
+        </div>
+        <div class="description">Built a custom smart beta ETF that tracks an external benchmark. Calculated its tracking error and used that
+          along with a covariance matrix within a convex equation to determine optimal reweighting of portfolio for least amount of tracking error possible.
+        </div>
+        <div class="technology">BBuilt With: Python, Jupyter Notebooks, Pandas, NumPy, CvxPy, SciPy, Plotly</div>
+        <div class="button-row">
+          <button>
+            <a href=https://watchdog.dgnet.cloud/>View Production Site</a>
+          </button>
+        </div>
+      </div> -->
+      <div class="project-box slideInRight">
         <div class="title">Sentiment Analysis w NLP & RNN</div>
         <!-- <div class="content"> -->
           <div class="visual">
@@ -16,19 +31,22 @@
         <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, PyTorch, Plotly, Beautiful Soup</div>
       </div>
       <h1 class="header">Quantitative Financial Analysis Projects</h1>
-      <div class="project-box flipInX">
+      <!-- <ul>
+        <li class="hidden" v-infocus="'slideInLeft'">Machine Learning Applications</li>
+      </ul> -->
+      <div class="project-box hidden" v-infocus="'slideInRight'">
         <div class="title">Smart Beta Portfolio Building</div>
         <!-- <div class="content"> -->
-          <div class="visual">
-              <!-- <img src="../assets/chart5.png"> -->
-              <img src="../assets/chart6.png">
-          </div>
-          <div class="description">Built a custom smart beta ETF that tracks an external benchmark. Calculated its tracking error and used that
-            along with a covariance matrix within a convex equation to determine optimal reweighting of portfolio for least amount of tracking error possible.
-          </div>
+        <div class="visual">
+            <!-- <img src="../assets/chart5.png"> -->
+            <img src="../assets/chart6.png">
+        </div>
+        <div class="description">Built a custom smart beta ETF that tracks an external benchmark. Calculated its tracking error and used that
+          along with a covariance matrix within a convex equation to determine optimal reweighting of portfolio for least amount of tracking error possible.
+        </div>
         <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, CvxPy, SciPy, Plotly</div>
       </div>
-      <div class="project-box flipInX">
+      <div class="project-box hidden" v-infocus="'slideInLeft'">
         <div class="title">Distribution Analysis & Normalization Tool</div>
         <!-- <div class="content"> -->
           <div class="visual">
@@ -40,7 +58,7 @@
           </div>
         <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, SciPy, Plotly</div>
       </div>
-      <div class="project-box flipInX">
+      <div class="project-box hidden" v-infocus="'slideInRight'">
         <div class="title">Signal Entry Display Tool</div>
         <!-- <div class="content"> -->
           <div class="visual">
@@ -50,7 +68,7 @@
           </div>
         <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, SciPy, Plotly</div>
       </div>
-      <div class="project-box flipInX">
+      <div class="project-box hidden" v-infocus="'slideInLeft'">
         <div class="title">Breakout Visualization Tool</div>
         <!-- <div class="content"> -->
           <div class="visual">
@@ -60,7 +78,7 @@
           </div>
         <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, SciPy, Plotly</div>
       </div>
-      <div class="project-box flipInX">
+      <div class="project-box hidden" v-infocus="'slideInRight'">
         <div class="title">Statistical Significance Evaluation Tool</div>
         <!-- <div class="content"> -->
           <div class="visual">
@@ -72,7 +90,7 @@
         <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, SciPy, Plotly</div>
       </div>
       <h1 class="header">Web Application Projects</h1>
-      <div class="project-box flipInX">
+      <div class="project-box hidden" v-infocus="'slideInLeft'">
         <div class="title">GCN - Social Networking Platform</div>
         <!-- <div class="content"> -->
           <div class="visual">
@@ -92,7 +110,7 @@
           <a href='http://gcn.agilentinnovations.com'>New Version Prototype</a>
         </button> -->
       </div>
-      <div class="project-box flipInX">
+      <div class="project-box hidden" v-infocus="'slideInRight'">
         <div class="title">DGnet Watchdog - Asset Monitoring Platform</div>
         <!-- <div class="content"> -->
           <div class="visual">
@@ -109,7 +127,7 @@
           </button>
         </div>
       </div>
-      <div class="project-box flipInX">
+      <div class="project-box hidden" v-infocus="'slideInLeft'">
         <div class="title">Cloud Cutlist - Manufacturing ERP</div>
         <div class="visual">
           <img src="../assets/meteor.jpeg">
@@ -121,7 +139,7 @@
         <div class="technology">Built With: Meteor, MongoDB</div>
         <!-- <button>Link Coming Soon</button> -->
       </div>
-      <div class="project-box flipInX">
+      <div class="project-box hidden" v-infocus="'slideInRight'">
         <div class="title">Construction Central - Construction ERP</div>
         <div class="visual">
           <img src="../assets/meteor.jpeg">
@@ -132,7 +150,7 @@
         <div class="technology">Built With: Meteor, MongoDB</div>
         <!-- <button>Link Coming Soon</button> -->
       </div>
-      <div class="project-box flipInX">
+      <div class="project-box hidden" v-infocus="'slideInLeft'">
         <div class="title">Value Request - Real Estate Appraisal</div>
         <!-- <div class="content"> -->
         <div class="visual">
@@ -146,7 +164,7 @@
         <div class="technology">Built With: Vue, Vuex, Auth0, Chart.js</div>
         <!-- <button>Link Coming Soon</button> -->
       </div>
-      <div class="project-box flipInX">
+      <div class="project-box hidden" v-infocus="'slideInRight'">
         <div class="title">Agilent - Customer Relationship Manager</div>
         <!-- <div class="content"> -->
           <div class="visual">
@@ -162,7 +180,7 @@
           <a href='http://crm.agilentinnovations.com'>View Demo</a>
         </button> -->
       </div>
-      <div class="project-box flipInX">
+      <div class="project-box hidden" v-infocus="'slideInLeft'">
         <div class="title">Penny Pincher - Personal Finance</div>
         <div class="visual">
           <img src="../assets/logo.png">
@@ -173,7 +191,7 @@
         <div class="technology">Built With: Vue, Auth0, GraphQL, GraphCool, and a Static Site Generator</div>
         <!-- <button>Link Coming Soon</button> -->
       </div>
-      <div class="project-box flipInX">
+      <div class="project-box hidden" v-infocus="'slideInRight'">
         <div class="title">Agilent - Admin Panel</div>
         <div class="visual">
           <img src="../assets/logo.png">
@@ -197,88 +215,108 @@
 
 <script>
 export default {
-  name: 'Projects'
+  name: 'Projects',
+  directives: {
+    infocus: {
+      isLiteral: true,
+      inserted: (el, binding, vnode) => {
+        let f = () => {
+          let rect = el.getBoundingClientRect()
+          let inView = (
+            rect.width > 0 &&
+            rect.height > 0 &&
+            rect.top >= 0 &&
+            rect.bottom <= (window.innerHeight + 300 || document.documentElement.clientHeight)
+          )
+          if (inView) {
+            el.classList.add(binding.value)
+            window.removeEventListener('scroll', f)
+          }
+        }
+        window.addEventListener('scroll', f)
+        f()
+      }
+    }
+  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 @import "../assets/global.scss";
-.main-box {
+.page-layout {
   // @include border-radius(10px);
   background-color:  rgba(255, 255, 255, 0.0);
   display: grid;
+  grid-template-rows: max-content;
   grid-template-columns: 40vw 40vw;
   grid-column-gap: 4vw;
   margin-left: 8vw;
   margin-right: 8vw;
   padding: 1% 0%;
   h1 {
-    padding-bottom: 2%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     color:  rgba(255, 255, 255, 0.90);
     text-shadow: 1.5vh 1.5vh 13vh rgba(0,0,0,0.75);
   }
   /* opacity: 1;
   filter: alpha(opacity=50); For IE8 and earlier */
-}
-.header {
-  grid-column:  1 / -1; /* -1 causes header to expand to the end of grid regardless of number of columns*/
+  .header {
+    grid-column:  1 / -1; /* -1 causes header to expand to the end of grid regardless of number of columns*/
+  }
 }
 .project-box {
+  //border: 1px solid red;
   display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 7vh 32vh auto 10vh 10vh;
-  grid-template-areas:
-  "title"
-  "visual"
-  "description"
-  "technology"
-  "button-row";
-  @include shadow2;
-  opacity: 1;
+  grid-template-columns: 1fr;
+  //grid-auto-rows: minmax(min-content, max-content);
+  //grid-template-rows: min-content 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10vh 32vmin auto auto min-content;
   background-color:  rgba(255, 255, 255, 1);
   margin-bottom: 1vh;
   padding: 3vh 3vw;
+  // grid-template-areas:
+  // "test1"
+  // "test2"
+  // "test3"
+  // "test4"
+  // "test5";
   .title {
-    //border: 1px solid red;
-    grid-area: title;
-    padding-bottom: 2vh;
-    font-size: 1.5vw;
+    //background-color: lightseagreen;
+    margin-bottom: 2vh;
+    font-size: 3vmin;
   }
   .visual {
-    //border: 1px solid red;
-    grid-area: visual;
-    justify-self: center;
+    //background-color: orange;
+    text-align: center;
+    border-bottom: 1px solid black;
     img {
-      height: 30vh;
-      max-width: 30vw;
-      //margin: auto;
-      //padding-bottom: 2vh;
-      //width: 30vh;
+      height: 97%;
+      width: 90%;
+      padding-bottom: 3%;
     }
   }
   .description {
-    //border: 1px solid red;
-    grid-area: description;
+    //background-color: lightblue;
     font-size: 2vh;
     color: rgba(0,0,0,0.75);
     //top: 0;
+    margin-top: 2vh;
   }
   .technology {
-    //border: 1px solid red;
-    grid-area: technology;
+    //background-color: lightcoral;
+    font-size: 2vmin;
+    //margin-bottom: 2vh;
+    margin-top: 3vh;
     align-self: end;
   }
   .button-row {
-    //border: 1px solid red;
-    grid-area: button-row;
+    //background-color: lightgreen;
     align-self: end;
     button {
       @include shadow4;
-      // @include inset-shadow3;
       margin-top: 1vh;
-      // background-color: white;
-      //height: 10vh;
       background-color: var(--color2);
       color: white;
       border: none;
@@ -291,12 +329,6 @@ export default {
       @include shadow3;
     }
   }
-}
-.project-box:hover{
-}
-
-.background {
-  background-color: lightgray;
 }
 .gradient {
   background: -moz-linear-gradient(325deg, rgba(45,48,245,1) 0%, rgba(35,150,153,1) 100%); /* ff3.6+ */
@@ -339,11 +371,34 @@ export default {
          -o-transform:skew(8deg) rotate(3deg);
             transform:skew(8deg) rotate(3deg);
 }
+.hidden {
+  opacity: 0;
+}
 .flipInX {
+  opacity: 1;
   backface-visibility: visible !important;
   animation-name: flipInX;
-  animation-duration: 2s;
+  animation-duration: 1s;
+  //transition: all 0.5s ease-out;
 }
+.slideInLeft {
+  opacity: 1;
+  animation-duration: 1s;
+  animation-name: slideInLeft2;
+  /* transform: translate(0, 0); */
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.slideInRight {
+    opacity: 1;
+    animation-duration: 1s;
+    animation-name: slideInRight;
+    /* transform: translate(0, 0); */
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
 @keyframes flipInX {
   from {
     transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
@@ -369,14 +424,39 @@ export default {
     transform: perspective(400px);
   }
 }
-@keyframes slideInLeft {
+@keyframes slideInLeft2 {
   from {
-    transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 50%, 0);
     visibility: visible;
+    //width: 50vw;
   }
 
   to {
     transform: translate3d(0, 0, 0);
+    //width: 100vw;
+  }
+  // from {
+  //   margin-right: 100vw;
+  //   //width: 100vw;
+  // }
+
+  // to {
+  //   margin-right: 0vw;
+  //   //width: 100vw;
+  // }
+}
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 50%, 0);
+    visibility: visible;
+    //margin-left: 100vw;
+    //width: 100vw;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    //margin-left: 0vw;
+    //width: 100vw;
   }
 }
 @keyframes fadeIn1 {
@@ -390,5 +470,39 @@ export default {
     25%  {color:rgba(255, 255, 255, 0.20)};
     50%  {color:rgba(255, 255, 255, 0.70)};
     100% {color:rgba(255, 255, 255, 0.90)};
+}
+//////////////////////////////////////////////////// Mobile ///////////////////////////////////////////////
+@media only screen and (max-width: 700px) {
+  .page-layout {
+    // @include border-radius(10px);
+    background-color:  rgba(255, 255, 255, 0.0);
+    display: grid;
+    grid-template-columns: 80vw;
+    //grid-column-gap: 4vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    //padding: 1% 0%;
+    h1 {
+      padding-bottom: 2%;
+      color:  rgba(255, 255, 255, 0.90);
+      text-shadow: 1.5vh 1.5vh 13vh rgba(0,0,0,0.75);
+    }
+    /* opacity: 1;
+    filter: alpha(opacity=50); For IE8 and earlier */
+  }
+  .project-box {
+    .title {
+    }
+    .visual {
+      img {
+      }
+    }
+    .description {
+    }
+    .technology {
+    }
+    .button-row {
+    }
+  }
 }
 </style>

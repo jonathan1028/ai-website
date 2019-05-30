@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="page-layout">
     <div class="gradient panel1">
       <!-- <svg xmlns="http://www.w3.org/2000/svg" width="200px" height="200px" >
         <defs>
@@ -19,12 +19,12 @@
     </div>
     <div class="panel3 gradient">
       <h1 class="hidden" v-infocus="'slideInLeft'">Our Focus</h1>
-      <ul class="hidden" v-infocus="'slideInLeft'">
+      <ul>
         <!-- <li>Basic Websites</li> -->
-        <li>Machine Learning Applications</li>
-        <li>Data Analysis & Visualizations</li>
-        <li>Complex Web Applications</li>
-        <li>MVPs</li>
+        <li class="hidden" v-infocus="'slideInLeft'">Machine Learning Applications</li>
+        <li class="hidden" v-infocus="'slideInLeft'">Data Analysis & Visualizations</li>
+        <li class="hidden" v-infocus="'slideInLeft'">Complex Web Applications</li>
+        <li class="hidden" v-infocus="'slideInLeft'">MVPs</li>
         <!-- <li>Artificial Intelligence</li> -->
       </ul>
       <!-- <h2>Basic Websites, Complex Web applications, Artificial Intelligence </h2> -->
@@ -36,16 +36,16 @@
     </div>
     <div class="panel5 gradient">
       <h1 class="hidden" v-infocus="'slideInRight'">Core Technologies</h1>
-      <ul class="hidden" v-infocus="'slideInRight'">
-        <li>Python</li>
-        <li>Jupyter Notebooks</li>
-        <li>Machine Learning Libraries</li>
-        <li>Data Visualization Libraries</li>
-        <li>Vue</li>
-        <li>GraphQL</li>
-        <li>Apollo</li>
-        <li>Prisma</li>
-        <li>Static Site Generators</li>
+      <ul>
+        <li class="hidden" v-infocus="'slideInRight'">Python</li>
+        <li class="hidden" v-infocus="'slideInRight'">Jupyter Notebooks</li>
+        <li class="hidden" v-infocus="'slideInRight'">Machine Learning Libraries</li>
+        <li class="hidden" v-infocus="'slideInRight'">Data Visualization Libraries</li>
+        <li class="hidden" v-infocus="'slideInRight'">Vue</li>
+        <li class="hidden" v-infocus="'slideInRight'">GraphQL</li>
+        <li class="hidden" v-infocus="'slideInRight'">Apollo</li>
+        <li class="hidden" v-infocus="'slideInRight'">Prisma</li>
+        <li class="hidden" v-infocus="'slideInRight'">Static Site Generators</li>
       </ul>
       <!-- <h2>Pull examples from Netlify, Vue, GraphQL, Apollo, etc </h2> -->
     </div>
@@ -83,55 +83,68 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/global.scss";
-  .container {
-    display: grid;
-    grid-template-rows: auto auto auto auto auto;
-  }
-  h1 {
-    padding-bottom: 2vh;
-  }
-  .panel1, .panel3, .panel5 {
-    //@include shadow2;
-    //@include inset-shadow3;
-    height: auto;
-    padding: .5vh 5vh;
-    border-bottom: .15vh solid #BFBFBF;
-  }
-  .panel2, .panel4 {
-    // @include shadow2;
-    // @include inset-shadow3;
-    height: auto;
-    padding: .5vh 5vh;
-    border-bottom: .15vh solid #BFBFBF;
-  }
+.page-layout {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: 100%;
+  grid-template-areas:
+  "panel1"
+  "panel2"
+  "panel3"
+  "panel4"
+  "panel5";
   .panel1 {
+    //border: 1px solid red;
+    grid-area: panel1;
     padding-left: 5vw;
     padding-top: 6vh;
     padding-bottom: 4vh;
     h1 {
-      font-size: 20vh;
+      font-size: 20vmin;
     }
     h2 {
-      font-size: 10vh;
+      font-size: 10vmin;
       padding-left: 40vw;
     }
   }
-  .panel2, .panel3, .panel4, .panel5 {
-    padding: 3% 10% 6% 10%;
-    font-size: 1.5em;
-  }
   .panel2 {
+    //border: 1px solid red;
+    grid-area: panel2;
     color: rgb(100, 100, 100);
   }
   .panel3 {
+    grid-area: panel3;
     text-align: right;
   }
   .panel4 {
+    grid-area: panel4;
     text-align: center;
     color: rgb(100, 100, 100);
   }
   .panel5 {
+    grid-area: panel5;
     text-align: left;
+  }
+  .panel1, .panel2, .panel3, .panel4, .panel5 {
+    //@include shadow2;
+    //@include inset-shadow3;
+    height: auto;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    border-bottom: .15vh solid #BFBFBF;
+    h1 {
+      padding-bottom: 2vh;
+    }
+  }
+  .panel2, .panel3, .panel4, .panel5 {
+    padding-top: 3%;
+    padding-bottom: 6%;
+    p {
+      font-size: 2.5vmin;
+    }
+    li {
+      font-size: 3vmin;
+    }
   }
   .gradient {
     color: white;
@@ -175,26 +188,26 @@ export default {
   }
   @keyframes slideInMain {
     from {
-      margin-left: 100%;
-      width: 100%;
-      font-size: 40vh;
+      margin-left: 100vw;
+      width: 100vw;
+      font-size: 40vmin;
     }
 
     to {
       margin-left: 0vw;
-      width: 100%;
-      font-size: 20vh;
+      width: 100vw;
+      font-size: 20vmin;
     }
   }
   @keyframes slideInRight {
     from {
-      margin-left: 100%;
-      width: 100%;
+      margin-left: 100vw;
+      width: 100vw;
     }
 
     to {
       margin-left: 0vw;
-      width: 100%;
+      width: 100vw;
     }
   }
   @keyframes slideInLeft {
@@ -207,4 +220,5 @@ export default {
       transform: translate3d(0, 0, 0);
     }
   }
+}
 </style>
