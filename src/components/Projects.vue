@@ -25,7 +25,10 @@
               <!-- <img src="../assets/chart5.png"> -->
               <!-- <img src="../assets/chart6.png"> -->
           </div>
-          <div class="description">Built a natrual language processing tool that scrapes different financial websites, stores the data, and then uses a recurrant neural
+          <div class="description">Built a natrual language processing tool. Extracts financial reports filed with the Securities & Exchange Commission based
+            on a list of stocks given. These documents are then categorized, sorted, and cleaned of all HTML tags and punctuation. Next the documents are lemmatized
+            and all stops words are removed using the NLTK library. All words are then run through against a sentiment analysis word list, scored, and then grouped using
+            the Bag of Words library. Next, we calculate the Jaccard Similarity Index of each word and plot it over time.  that scrapes different financial websites, stores the data, and then uses a recurrant neural
             network to conduct sentiment analysis and make predictions about future data.
           </div>
         <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, PyTorch, Plotly, Beautiful Soup</div>
@@ -88,6 +91,26 @@
             and uses SciPy to conduct different hypothesis tests to evaluate if the signal is obtaining its results from randomness or real alpha.
           </div>
         <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, SciPy, Plotly</div>
+      </div>
+      <h1 class="header">Data Science Projects</h1>
+      <div class="project-box hidden" v-infocus="'slideInLeft'">
+        <div class="title">General Assembly - Lab Curriculum for Data Science Class</div>
+        <!-- <div class="content"> -->
+          <div class="visual">
+              <img src="../assets/weather-app.png">
+          </div>
+          <div class="description">Designed and built a 6-part data science project that students build out over the course of the class to apply the different programming and data science concepts they are learning. The project utilizes 10 years of hourly weather data to make daily and weekly forecasts for any date that a user inputs.
+          </div>
+        <!-- </div> -->
+        <div class="technology">Built With: Python, Pandas, Jupyter Notebooks, and other libraries</div>
+        <div class="button-row">
+          <!-- <button>
+            <a href='https://www.goodcitizen.network/#/'>View Production Site</a>
+          </button> -->
+        </div>
+        <!-- <button>
+          <a href='http://gcn.agilentinnovations.com'>New Version Prototype</a>
+        </button> -->
       </div>
       <h1 class="header">Web Application Projects</h1>
       <div class="project-box hidden" v-infocus="'slideInLeft'">

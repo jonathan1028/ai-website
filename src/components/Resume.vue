@@ -45,7 +45,7 @@
           <div class="subsection">Data Analysis</div>
           <div class="item">Data Pipelines, Data Normalization Techniques, Heteroskedasticity Tests, Statistical Significance Tests, Data Visualizations, mySQL, MongoDB, PostgreSQL, GraphQL & Graph DBs, Firebase, AWS</div>
           <div class="subsection">Languages/Libraries</div>
-          <div class="item">JS, Python, MQL4, Java, C++, PHP, Ruby, HTML, CSS, Jupyter, Pandas, NumPy, SciPy, Scikit-learn, PyTorch, Zipline, Plotly</div>
+          <div class="item">JS, Python, MQL4, Java, C++, PHP, Ruby, HTML, CSS, Jupyter, Pandas, NumPy, SciPy, Scikit-learn, PyTorch, Zipline, Plotly, ZeroMQ</div>
           <div class="subsection">Other Skills</div>
           <div class="item">Road Maps, Critical Path Analysis, Technical Debt Mgmt Plans, Documentation, Prototyping, Scrum, Kanban, Jira/Confluence, Git, GitHub</div>
         </div>
