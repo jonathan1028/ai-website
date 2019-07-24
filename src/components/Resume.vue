@@ -106,7 +106,8 @@
             </div>
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Designed and built the 6-part student lab for General Assembly's executive data science course which teaches students how to process 10 years of raw data from the National Weather Service and use that to make inferences about the daily and weekly weather forecast for any given day in the year.</div>
+              <div class="experience">Designed and built a 6-part student lab for General Assembly's executive data science course that teaches students how to process 10 years of raw data from the National Weather Service and use it for making inferences about any given daily or weekly forecasts.</div>
+              <div class="experience"></div>
             </div>
           </div>
           <!-- <div class="job">
@@ -217,7 +218,7 @@
             </div>
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Developed ERP manufacturing software which doubled throughput rate, reduced materials waste by 50%, and created tracking and data analysis for all manufacturing hours. Users enter custom product dimensions and the product then generated a cut-list, a materials order, and a process list with estimated hours for production.</div>
+              <div class="experience">Designed and built a parametric modeling manufacturing software which generated cut-lists, materials orders, and a process list with estimated hours for production.</div>
             </div>
             <div class="job-header">
               <div class="company">Construction Central &nbsp;</div>
@@ -226,7 +227,7 @@
             </div>
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Researched existing construction software to identify competitors, unmet market needs, and initial feature set. Grew product to include additional components of: customer relationship management, vendor management, estimating, budgeting, project management, a complex job costing system, and bookkeeping.</div>
+              <div class="experience">Designed and built a construction ERP product with components of: customer relationship management, vendor management, estimating, budgeting, project management, a complex job costing system, and bookkeeping.</div>
             </div>
           </div>
           <div class="section-title">Business Management</div>
@@ -276,8 +277,7 @@ formas, raised million dollar+ capital rounds, and made all portfolio investment
             </div>
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Rebuilt the entire operations, sales, and marketing segments for the
-management of 200 investment properties through the implementation of new systems and technology - which increased the operational efficiency of the business by 400%, cut annual tenant evictions by 1/3rd, and increased average rents collected across the entire portfolio.</div>
+              <div class="experience">Rebuilt the entire operations, sales, and marketing segments for the management of 200 investment properties through the implementation of new systems and technology - which increased the operational efficiency of the business by 400%, cut annual tenant evictions by 1/3rd, and increased average rents collected across the entire portfolio.</div>
               <!-- <img class="diamond-small" src="../assets/diamond2.svg"> -->
               <!-- <div class="experience">Regularly conducted substantial financial analysis and maintained different inhouse trend analysis models on the local real estate market, built pro formas and presentations, and made investment recommendations to our clients.</div> -->
               <!-- <img class="diamond-small" src="../assets/diamond2.svg"> -->
