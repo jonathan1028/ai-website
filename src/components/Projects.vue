@@ -18,6 +18,18 @@
         </div>
       </div> -->
       <div class="project-box slideInRight">
+        <div class="title">Deep Learning Algorithm for Employee Performance</div>
+        <!-- <div class="content"> -->
+          <div class="visual">
+            Visual coming soon . . .
+              <!-- <img src="../assets/chart5.png"> -->
+              <!-- <img src="../assets/chart6.png"> -->
+          </div>
+          <div class="description">Built a sklearn pipeline to handle the preprocessing and dimensionality reduction of 380 intitial inputs. Built a deep learning neural network to examine 1,800+ features of data and make employee performance predictions.
+          </div>
+        <div class="technology">Built With: Python, Jupyter Notebooks, Pandas, NumPy, PyTorch, SciKit-Learn, MatLab</div>
+      </div>
+      <div class="project-box slideInRight">
         <div class="title">Sentiment Analysis w NLP & RNN</div>
         <!-- <div class="content"> -->
           <div class="visual">

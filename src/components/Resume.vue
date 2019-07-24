@@ -43,9 +43,9 @@
           <div class="subsection">Financial Modeling</div>
           <div class="item">Regression Analysis, Advanced Time Series Models, Fama French Models, Principle Component Analysis Models, Multi-factor Alpha Models, Advanced Portfolio Optimization Using Convex Equations, Portfolio Regularization</div>
           <div class="subsection">Data Analysis</div>
-          <div class="item">Data Pipelines, Data Normalization Techniques, Heteroskedasticity Tests, Statistical Significance Tests, Data Visualizations, mySQL, MongoDB, PostgreSQL, GraphQL & Graph DBs, Firebase, AWS</div>
+          <div class="item">Data Preprocessing, SKLearn Data Pipelines, Machine Learning Models, Data Visualizations, mySQL, MongoDB, PostgreSQL, GraphQL & Graph DBs, Firebase, AWS, Google Colab</div>
           <div class="subsection">Languages/Libraries</div>
-          <div class="item">JS, Python, MQL4, Java, C++, PHP, Ruby, HTML, CSS, Jupyter, Pandas, NumPy, SciPy, Scikit-learn, PyTorch, Zipline, Plotly, ZeroMQ</div>
+          <div class="item">JS, Python, MQL4, Java, C++, PHP, Ruby, HTML, CSS, Jupyter, Pandas, NumPy, SciPy, SciKit-Learn, PyTorch, Keras, TensorFlow,Zipline, ZeroMQ</div>
           <div class="subsection">Other Skills</div>
           <div class="item">Road Maps, Critical Path Analysis, Technical Debt Mgmt Plans, Documentation, Prototyping, Scrum, Kanban, Jira/Confluence, Git, GitHub</div>
         </div>
@@ -58,32 +58,58 @@
             Unquenchable thirst for learning, researching, and theorizing about the future impacts of technology on business and society. Recently I've become endlessly curious in the potential applications of Deep Reinforcement Learning models to real world problems - especially in the areas of financial markets, global economics, and quantitative investment analysis.</div>
           <br>
           <div class="profile-text">
-            Previously I founded/built 2 different companies in the real estate investment industry with an emphasis on using technology to drive efficiency, identify market mispricings, and create other competitive advantages - often by building my own in-house custom software applications & tools.
+            Previously I built 2 different companies in the real estate investment industry with an emphasis on using technology to drive efficiency, identify market mispricings, and create other competitive advantages - often by building my own in-house custom software applications & tools.
           </div>
         </div>
         <div class="section-break"></div>
         <div class="section">
-          <div class="section-title">Technical Experience</div>
+          <div class="section-title">Data Science & Machine Learning</div>
           <div class="job">
             <div class="job-header">
-              <div class="company">Recent Projects, &nbsp;</div>
-              <div class="position">Quantitative Financial Research w ML &nbsp;</div>
+              <div class="company">FS Consulting &nbsp;</div>
+              <!-- <div class="position">Quantitative Financial Research w ML &nbsp;</div> -->
               <div class="time"></div>
             </div>
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Built the preprocessing pipeline and machine learning algorithm to predict projected employee performance from a company's hiring process with an accuracy of 99.6%. </div>
+            </div>
+            <!-- <div class="job-experience">
+              <img class="diamond-small" src="../assets/diamond2.svg">
               <div class="experience">Built a multi-node asynchronous distributive server network that can communicate across inproc, IPC, TCP, TIPC, multicast as well as interface with other nodes running software written in other languages. It has separate nodes for data intake, analysis and decision making, and trade placement. </div>
+            </div> -->
+            <div class="job-header">
+              <div class="company">Crown Holdings &nbsp;</div>
+              <!-- <div class="position">Quantitative Financial Research w ML &nbsp;</div> -->
+              <div class="time"></div>
             </div>
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Built a multi-factor risk model for identifying certain high-risk currency trading strategies previously considered unusable that could be altered in small ways and made profitable in select scenarios.</div>
+              <div class="experience">Deep reinforcement learning research project that compiles a number of weighted data streams and uses DeepMind's Alpha Zero learning techniques to make decisions on live market data.</div>
             </div>
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Built a natural language processing service that scrapes financial data from EDGAR and conducts sentiment analysis on it.</div>
+              <div class="experience">Built a multi-factor risk algorithm for identifying certain high-risk currency trading strategies previously deemed unusable that could be altered in small ways and made profitable in select scenarios.</div>
+            </div>
+            <div class="job-experience">
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Built a natural language processing service that scrapes financial data from SEC's EDGAR, conducts sentiment analysis, and plots changes over time.</div>
+            </div>
+            <div class="job-experience">
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Built and backtested a number of different event driven and non-event driven trading algorithms used for currency trading.</div>
+            </div>
+            <div class="job-header">
+              <div class="company">General Assembly &nbsp;</div>
+              <!-- <div class="position">Quantitative Financial Research w ML &nbsp;</div> -->
+              <div class="time"></div>
+            </div>
+            <div class="job-experience">
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Designed and built the 6-part student lab for General Assembly's executive data science course which teaches students how to process 10 years of raw data from the National Weather Service and use that to make inferences about the daily and weekly weather forecast for any given day in the year.</div>
             </div>
           </div>
-          <div class="job">
+          <!-- <div class="job">
             <div class="job-header">
               <div class="company">Good Citizen Network, &nbsp;</div>
               <div class="position">Product Mgr/Developer, &nbsp;</div>
@@ -92,13 +118,9 @@
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
               <div class="experience">Lead the re-architecting and build of a new graphQL API and front-end structure which reduced the legacy code base by over 80%, improved development speed/cost by 8X, reduced multi-second page load times to zero, improved security, and increased scalability. </div>
-              <!-- <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Setup git workflow and AWS Code Pipelines for continuous development.</div>
-              <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Researched scalable search APIs/architectures and proposed findings and solution to CEO.</div> -->
             </div>
-          </div>
-          <div class="job">
+          </div> -->
+          <!-- <div class="job">
             <div class="job-header">
               <div class="company">Cloud Cutlist, &nbsp;</div>
               <div class="position">Product Mgr/Developer, &nbsp;</div>
@@ -108,7 +130,7 @@
               <img class="diamond-small" src="../assets/diamond2.svg">
               <div class="experience">Developed ERP manufacturing software which doubled throughput rate, reduced materials waste by 50%, and created tracking and data analysis for all manufacturing hours. Users enter custom product dimensions and the product then generated a cut-list, a materials order, and a process list with estimated hours for production.</div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -173,22 +195,56 @@
       </div>
       <div class="right-column">
         <div class="section">
+          <div class="section-title">Web Application Development</div>
           <div class="job">
             <div class="job-header">
-              <div class="company">Construction Central, &nbsp;</div>
-              <div class="position">Product Mgr/Developer, &nbsp;</div>
-              <div class="time">Nov. 2012 – Apr. 2016</div>
+              <div class="company">Good Citizen Network &nbsp;</div>
+              <!-- <div class="position">Product Mgr/Developer, &nbsp;</div>
+              <div class="time">Jun. 18 - Nov. 18</div> -->
+            </div>
+            <div class="job-experience">
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Lead the re-architecting and build of a new graphQL API and front-end structure which reduced the legacy code base by over 80%, improved development speed/cost by 8X, reduced multi-second page load times to zero, improved security, and increased scalability. </div>
+              <!-- <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Setup git workflow and AWS Code Pipelines for continuous development.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Researched scalable search APIs/architectures and proposed findings and solution to CEO.</div> -->
+            </div>
+            <div class="job-header">
+              <div class="company">Cloud Cutlist &nbsp;</div>
+              <!-- <div class="position">Product Mgr/Developer, &nbsp;</div>
+              <div class="time">Aug. 2016 – Nov. 2017</div> -->
+            </div>
+            <div class="job-experience">
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Developed ERP manufacturing software which doubled throughput rate, reduced materials waste by 50%, and created tracking and data analysis for all manufacturing hours. Users enter custom product dimensions and the product then generated a cut-list, a materials order, and a process list with estimated hours for production.</div>
+            </div>
+            <div class="job-header">
+              <div class="company">Construction Central &nbsp;</div>
+              <!-- <div class="position">Product Mgr/Developer, &nbsp;</div>
+              <div class="time">Nov. 2012 – Apr. 2016</div> -->
             </div>
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
               <div class="experience">Researched existing construction software to identify competitors, unmet market needs, and initial feature set. Grew product to include additional components of: customer relationship management, vendor management, estimating, budgeting, project management, a complex job costing system, and bookkeeping.</div>
             </div>
           </div>
-          <div class="section-title">Investment Experience</div>
+          <div class="section-title">Business Management</div>
+          <div class="job">
+            <div class="job-header">
+              <div class="company">Agilent Innovations, &nbsp;</div>
+              <div class="position">Founder &amp; Software Engineer, &nbsp;</div>
+              <div class="time">Nov. 2012 – Pres.</div>
+            </div>
+            <div class="job-experience">
+              <img class="diamond-small" src="../assets/diamond2.svg">
+              <div class="experience">Machine learning and data science product development.</div>
+            </div>
+          </div>
           <div class="job">
             <div class="job-header">
               <div class="company">787 Developers, &nbsp;</div>
-              <div class="position">President &amp; Founder, &nbsp;</div>
+              <div class="position">Founder &amp; Portfolio Manager, &nbsp;</div>
               <div class="time">Apr. 2012 – Jun. 2018</div>
             </div>
             <div class="job-experience">
@@ -202,30 +258,30 @@
                 >
                 <g fill="black" transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"><path stroke-width="95%" d="M4871.6,4951.4c-32.6-40.2-852.8-1144.1-1822.5-2453L1282.2,116.4l1816.7-2447.2L4915.7-4780h84.3h84.3L6901-2330.9L8717.8,116.4L6901,2565.5L5084.3,5012.7l-78.6,5.7C4934.8,5024.2,4923.3,5016.5,4871.6,4951.4z M6674.9,2354.7L8334.5,116.4L6674.9-2120.1C5760.8-3352.3,5007.7-4358.4,5000-4358.4s-762.7,1006.1-1674.9,2238.3L1665.5,116.4L3327,2358.5c916,1232.2,1669.2,2240.2,1676.8,2236.4C5009.6,4593,5762.7,3585,6674.9,2354.7z"/></g>
               </svg> -->
-              <div class="experience">Founded and grew one of the largest in-fill residential single-family development companies in Austin.</div>
-              <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Conducted investment analysis, built financial models and pro
+              <div class="experience">Built one of the largest in-fill residential single-family development companies in Austin. Oversaw full cycle planning, design, and construction of up to 10 projects simultaneously which varied from single-family homes to 30 unit neighborhoods.</div>
+              <!-- <img class="diamond-small" src="../assets/diamond2.svg"> -->
+              <!-- <div class="experience">Conducted investment analysis, built financial models and pro
 formas, raised million dollar+ capital rounds, and made all portfolio investment selections - which resulted in an on average internal rate of return to investors of 20%+.</div>
-              <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Oversaw full cycle planning, design, and construction of up to 10 projects simultaneously which varied from single-family homes to 30 unit neighborhoods.</div>
-              <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Created a product so highly regarded that we received multiple national publications and regularly broke area price records in our neighborhoods.</div>
+              <img class="diamond-small" src="../assets/diamond2.svg"> -->
+              <!-- <div class="experience">Oversaw full cycle planning, design, and construction of up to 10 projects simultaneously which varied from single-family homes to 30 unit neighborhoods.</div> -->
+              <!-- <img class="diamond-small" src="../assets/diamond2.svg"> -->
+              <!-- <div class="experience">Created a product so highly regarded that we received multiple national publications and regularly broke area price records in our neighborhoods.</div> -->
             </div>
           </div>
           <div class="job">
             <div class="job-header">
               <div class="company">Sharp Realty, &nbsp;</div>
-              <div class="position">President &amp; Cofounder, &nbsp;</div>
+              <div class="position">Cofounder &amp; Portfolio Manager, &nbsp;</div>
               <div class="time">Dec. 2006 – Mar. 2012</div>
             </div>
             <div class="job-experience">
               <img class="diamond-small" src="../assets/diamond2.svg">
               <div class="experience">Rebuilt the entire operations, sales, and marketing segments for the
 management of 200 investment properties through the implementation of new systems and technology - which increased the operational efficiency of the business by 400%, cut annual tenant evictions by 1/3rd, and increased average rents collected across the entire portfolio.</div>
-              <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Regularly conducted substantial financial analysis and maintained different inhouse trend analysis models on the local real estate market, built pro formas and presentations, and made investment recommendations to our clients.</div>
-              <img class="diamond-small" src="../assets/diamond2.svg">
-              <div class="experience">Prepared the company for acquisition and sold it in 2012 ($15 Million in real estate assets under management at the time of sale).</div>
+              <!-- <img class="diamond-small" src="../assets/diamond2.svg"> -->
+              <!-- <div class="experience">Regularly conducted substantial financial analysis and maintained different inhouse trend analysis models on the local real estate market, built pro formas and presentations, and made investment recommendations to our clients.</div> -->
+              <!-- <img class="diamond-small" src="../assets/diamond2.svg"> -->
+              <!-- <div class="experience">Prepared the company for acquisition and sold it in 2012 ($15 Million in real estate assets under management at the time of sale).</div> -->
             </div>
           </div>
           <div class="footer">
@@ -362,7 +418,7 @@ export default {
       padding: 20pt 25pt 0pt 25pt;
       .section {
         .section-title {
-          font-size: 20pt;
+          font-size: 18pt;
           font-weight: 500;
           text-transform: uppercase;
           text-align: center;
@@ -391,6 +447,7 @@ export default {
         .job-experience {
           margin: 2pt 0pt 0pt 8pt;
           display: grid;
+          justify-content: start;
           grid-template-columns: auto auto;
           .icon {
             font-size: 8pt;
