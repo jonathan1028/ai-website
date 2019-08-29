@@ -5,7 +5,7 @@ import MainLayout from '@/components/MainLayout'
 import Home from '@/components/Home'
 import Projects from '@/components/Projects'
 import Learn from '@/components/Learn'
-import Resume from '@/components/Resume'
+// import Resume from '@/components/Resume'
 
 Vue.use(Router)
 
@@ -47,11 +47,11 @@ export default new Router({
           component: Learn
         }
       ]
-    },
-    {
-      path: '/resume',
-      name: 'Resume',
-      component: Resume
     }
+    // {
+    //   path: '/resume',
+    //   name: 'Resume',
+    //   component: Resume
+    // }
   ]
 })
